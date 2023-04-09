@@ -1,0 +1,17 @@
+{
+  "autoConvertHtml": false,
+  "showLineNumber": false,
+  "showFrontmatter": true,
+  "readableLineLength": true,
+  "attachmentFolderPath": "Asserts",
+  "tabSize": 4,
+  "useTab": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "rightToLeft": false
+}

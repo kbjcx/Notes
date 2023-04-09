@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "9c73cecc03ae46e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "877373609d3c0322",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea03e6e9cd7623b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Archive.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "07ec4fae5b390cb3",
+    "type": "split",
+    "children": [
+      {
+        "id": "3969ef8229ffa0d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10161ed6956884ef",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6fc0536c59845ac8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "18366ce27f6fcc8d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "71644d3c54b6c1b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "c81a407a0d2dda80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60c22107ae4f38b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Templates/Archive.md"
+              }
+            }
+          },
+          {
+            "id": "cd4ee509630cc0e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Templates/Archive.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fc32dfe61a3f1ee9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Templates/Archive.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "af6f6516823e2835",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 324
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "random-note:开始漫游笔记": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "ea03e6e9cd7623b4",
+  "lastOpenFiles": [
+    "Templates/Evergreen.md",
+    "Templates/Archive.md",
+    "Fleeting/2023-04-07.md",
+    "DataView/Area/计算机网络.md",
+    "Archive/TCP.md",
+    "Archive/L2 Cache.md",
+    "DataView/Area",
+    "L1 Cache.md",
+    "DataView",
+    "Fleeting",
+    "Evergreen",
+    "Templates",
+    "Archive",
+    "Asserts",
+    "Area/Sources/计算机网络.md",
+    "Area/Sources/操作系统.md",
+    "Asserts/Pasted image 20230406205514.png",
+    "Asserts/Pasted image 20230406163522.png",
+    "计算机网络 de572cfed63c4a3a831ec09750e53703/Untitled 1.png.md",
+    "Asserts/Untitled 1.png",
+    "Asserts/Untitled 9 1.png",
+    "Asserts/Untitled 9.png",
+    "Asserts/Untitled 8.png",
+    "Asserts/Untitled 7.png",
+    "Asserts/Untitled 6.png",
+    "Asserts/Untitled 5.png",
+    "Asserts/Untitled 4.png",
+    "drawing.jpg.md",
+    "计算机网络 de572cfed63c4a3a831ec09750e53703/Untitled.png.md",
+    "Asserts/Pictures",
+    "计算机网络 de572cfed63c4a3a831ec09750e53703",
+    "新建 文本文档.txt"
+  ]
+}

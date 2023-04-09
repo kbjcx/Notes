@@ -1,0 +1,16 @@
+{
+  "accentColor": "",
+  "theme": "moonstone",
+  "translucency": false,
+  "nativeMenus": true,
+  "cssTheme": "AnuPpuccin",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "Fira Code Retina",
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "yaozhuw",
+    "extend"
+  ],
+  "baseFontSize": 16
+}

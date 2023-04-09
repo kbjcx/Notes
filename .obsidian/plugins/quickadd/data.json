@@ -1,0 +1,112 @@
+{
+  "choices": [
+    {
+      "id": "4661d469-79d6-4459-90e6-78abdb061718",
+      "name": "Fleeting",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Fleeting/{{date:gggg-MM-DD}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "\\n- #fleeting\n- {{VALUE:标题}}\n    - {{VALUE:内容}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "edc20021-6312-4a8f-af66-8afcea6f5d51",
+      "name": "Archive",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Archive.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:File Name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Archive"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Append to the bottom of the file",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "00d40046-1b29-45ba-9370-37eb478dcdac",
+      "name": "Evergreen",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Evergreen.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:File Name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Evergreen"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Append to the bottom of the file",
+      "setFileExistsBehavior": true
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "0.19.4",
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}
