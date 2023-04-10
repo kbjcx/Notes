@@ -18,8 +18,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "3b346e223436a858",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Archive/中断.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "71644d3c54b6c1b0",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Archive/任务调度.md"
+                "file": "Archive/中断.md"
               }
             }
           },
@@ -113,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/任务调度.md",
+                "file": "Archive/中断.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/任务调度.md",
+                "file": "Archive/中断.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,8 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324,
-    "collapsed": true
+    "width": 324
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,9 +174,10 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "3d4a10280f2cda27",
+  "active": "3b346e223436a858",
   "lastOpenFiles": [
     "Archive/任务调度.md",
+    "Archive/中断.md",
     "Archive/完全公平调度.md",
     "Archive/伪共享.md",
     "Asserts/70B0C278.png",
@@ -198,7 +210,6 @@
     "Archive/冯诺依曼模型.md",
     "Evergreen/hkjsdvbsdkk.md",
     "Asserts/Pasted image 20230409114425.png",
-    "Evergreen/TCP为什么需要三次握手.md",
     "Asserts",
     "DataView/Area",
     "DataView",
