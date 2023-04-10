@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0cd2f2a8307979b9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "3d4a10280f2cda27",
             "type": "leaf",
             "state": {
@@ -27,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,10 +161,10 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "6fc0536c59845ac8",
+  "active": "3d4a10280f2cda27",
   "lastOpenFiles": [
-    "Archive/完全公平调度.md",
     "Archive/任务调度.md",
+    "Archive/完全公平调度.md",
     "Archive/伪共享.md",
     "Asserts/70B0C278.png",
     "Archive/中央处理器.md",
