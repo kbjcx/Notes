@@ -26,9 +26,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "011bc5bab64a59d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Archive/完全公平调度.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Archive/任务调度.md"
+                "file": "Archive/完全公平调度.md"
               }
             }
           },
@@ -104,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/任务调度.md",
+                "file": "Archive/完全公平调度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/任务调度.md",
+                "file": "Archive/完全公平调度.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,9 +178,10 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "3d4a10280f2cda27",
+  "active": "6804c40b06fb9317",
   "lastOpenFiles": [
     "Archive/任务调度.md",
+    "Archive/完全公平调度.md",
     "Archive/伪共享.md",
     "Asserts/70B0C278.png",
     "Archive/中央处理器.md",
@@ -202,7 +215,6 @@
     "Asserts/Pasted image 20230409114425.png",
     "Evergreen/TCP为什么需要三次握手.md",
     "Asserts",
-    "Fleeting/2023-04-07.md",
     "DataView/Area",
     "DataView",
     "Fleeting",
