@@ -11,8 +11,12 @@
             "id": "55e293db2a151239",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Archive/未命名.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -80,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Archive/未命名.md"
+              }
             }
           },
           {
@@ -89,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Archive/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Archive/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,6 +150,8 @@
   },
   "active": "55e293db2a151239",
   "lastOpenFiles": [
+    "Archive/未命名.md",
+    "Chats",
     "未命名.canvas",
     "Archive/内存.md",
     "Archive/总线嗅探.md",
@@ -186,7 +196,6 @@
     "Asserts/Untitled 9 1.png",
     "Asserts/Untitled 9.png",
     "Asserts/Untitled 8.png",
-    "Asserts/Pictures",
-    "计算机网络 de572cfed63c4a3a831ec09750e53703"
+    "Asserts/Pictures"
   ]
 }
