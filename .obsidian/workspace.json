@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Archive/任务调度.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -86,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "71644d3c54b6c1b0",
@@ -146,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324
+    "width": 324,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
