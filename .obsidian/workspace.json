@@ -11,12 +11,8 @@
             "id": "55e293db2a151239",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Archive/未命名.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -84,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Archive/未命名.md"
-              }
+              "state": {}
             }
           },
           {
@@ -95,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +140,10 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "55e293db2a151239",
+  "active": "10161ed6956884ef",
   "lastOpenFiles": [
     "Archive/未命名.md",
+    "Chats/未命名.md",
     "Chats",
     "未命名.canvas",
     "Archive/内存.md",
@@ -184,7 +177,6 @@
     "Archive/TCP.md",
     "Archive/L2 Cache.md",
     "DataView/Area",
-    "L1 Cache.md",
     "DataView",
     "Fleeting",
     "Evergreen",
