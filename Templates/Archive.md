@@ -1,8 +1,11 @@
 ---
-title: {{NAME}}
+aliases: [{{VALUE:alias}}]
 area: {{VALUE:area}}
 project: {{VALUE:project}}
-source: {{VALUE:source}}
 date: {{DATE:YYYY-MM-DD HH:mm}}
 ---
 ---
+#### Description
+
+---
+#### Source

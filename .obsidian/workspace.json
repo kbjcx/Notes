@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "877373609d3c0322",
+        "id": "ce8c1208f7dd6eb5",
         "type": "tabs",
         "children": [
           {
-            "id": "ea03e6e9cd7623b4",
+            "id": "f7b2af5b0dd79d11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Archive.md",
-                "mode": "source",
-                "source": false
+                "file": "Evergreen/CPU的缓存一致性问题.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Archive.md"
+                "file": "Evergreen/CPU的缓存一致性问题.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Archive.md",
+                "file": "Evergreen/CPU的缓存一致性问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Archive.md",
+                "file": "Evergreen/CPU的缓存一致性问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,16 +144,39 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "random-note:开始漫游笔记": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ea03e6e9cd7623b4",
+  "active": "f7b2af5b0dd79d11",
   "lastOpenFiles": [
-    "Templates/Evergreen.md",
+    "Archive/CPU缓存.md",
+    "Archive/MESI协议.md",
+    "Asserts/Pasted image 20230410170130.png",
+    "Evergreen/CPU的缓存一致性问题.md",
+    "Archive/写回.md",
+    "Archive/总线嗅探.md",
     "Templates/Archive.md",
-    "Fleeting/2023-04-07.md",
+    "Templates/Evergreen.md",
+    "Archive/写直达.md",
+    "DataView/TODO.md",
     "DataView/Area/计算机网络.md",
+    "Fleeting/2023-04-09.md",
+    "Archive/存储器的层次结构.md",
+    "Asserts/Pasted image 20230410145248.png",
+    "Asserts/Pasted image 20230410145246.png",
+    "Archive/中央处理器.md",
+    "Asserts/Pasted image 20230406205514.png",
+    "Archive/线路位宽.md",
+    "Archive/总线.md",
+    "Archive/内存.md",
+    "Archive/CPU.md",
+    "Archive/寄存器.md",
+    "Archive/冯诺依曼模型.md",
+    "Evergreen/hkjsdvbsdkk.md",
+    "Asserts/Pasted image 20230409114425.png",
+    "Evergreen/TCP为什么需要三次握手.md",
+    "Asserts",
+    "Fleeting/2023-04-07.md",
     "Archive/TCP.md",
     "Archive/L2 Cache.md",
     "DataView/Area",
@@ -164,23 +187,12 @@
     "Templates",
     "Archive",
     "Asserts",
-    "Area/Sources/计算机网络.md",
-    "Area/Sources/操作系统.md",
-    "Asserts/Pasted image 20230406205514.png",
     "Asserts/Pasted image 20230406163522.png",
-    "计算机网络 de572cfed63c4a3a831ec09750e53703/Untitled 1.png.md",
     "Asserts/Untitled 1.png",
     "Asserts/Untitled 9 1.png",
     "Asserts/Untitled 9.png",
     "Asserts/Untitled 8.png",
-    "Asserts/Untitled 7.png",
-    "Asserts/Untitled 6.png",
-    "Asserts/Untitled 5.png",
-    "Asserts/Untitled 4.png",
-    "drawing.jpg.md",
-    "计算机网络 de572cfed63c4a3a831ec09750e53703/Untitled.png.md",
     "Asserts/Pictures",
-    "计算机网络 de572cfed63c4a3a831ec09750e53703",
-    "新建 文本文档.txt"
+    "计算机网络 de572cfed63c4a3a831ec09750e53703"
   ]
 }
