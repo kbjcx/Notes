@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d995455ed2c7b8b7",
+        "id": "3f87e2153a7cd00a",
         "type": "tabs",
         "children": [
           {
-            "id": "55e293db2a151239",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Evergreen/CPU的缓存一致性问题.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4176e446a1823f99",
+            "id": "e69d032ddc13cfe9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,8 +148,9 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "4176e446a1823f99",
+  "active": "10161ed6956884ef",
   "lastOpenFiles": [
+    "Archive/中央处理器.md",
     "Evergreen/CPU的缓存一致性问题.md",
     "Archive/伪共享.md",
     "DataView/Area/计算机网络.md",
@@ -185,7 +173,6 @@
     "Archive/存储器的层次结构.md",
     "Asserts/Pasted image 20230410145248.png",
     "Asserts/Pasted image 20230410145246.png",
-    "Archive/中央处理器.md",
     "Asserts/Pasted image 20230406205514.png",
     "Archive/总线.md",
     "Archive/CPU.md",
