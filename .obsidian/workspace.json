@@ -148,8 +148,9 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "10161ed6956884ef",
+  "active": "e69d032ddc13cfe9",
   "lastOpenFiles": [
+    "Asserts/70B0C278.png",
     "Archive/中央处理器.md",
     "Evergreen/CPU的缓存一致性问题.md",
     "Archive/伪共享.md",
@@ -183,7 +184,6 @@
     "Evergreen/TCP为什么需要三次握手.md",
     "Asserts",
     "Fleeting/2023-04-07.md",
-    "Archive/TCP.md",
     "DataView/Area",
     "DataView",
     "Fleeting",
