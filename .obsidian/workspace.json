@@ -22,25 +22,13 @@
               "type": "markdown",
               "state": {
                 "file": "Archive/任务调度.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "011bc5bab64a59d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Archive/完全公平调度.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -64,6 +52,20 @@
             }
           },
           {
+            "id": "18366ce27f6fcc8d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "699cfaafd48f8fd5",
+        "type": "tabs",
+        "children": [
+          {
             "id": "6fc0536c59845ac8",
             "type": "leaf",
             "state": {
@@ -79,11 +81,14 @@
             }
           },
           {
-            "id": "18366ce27f6fcc8d",
+            "id": "af6f6516823e2835",
             "type": "leaf",
             "state": {
-              "type": "starred",
-              "state": {}
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
             }
           }
         ]
@@ -106,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Archive/完全公平调度.md"
+                "file": "Archive/任务调度.md"
               }
             }
           },
@@ -116,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/完全公平调度.md",
+                "file": "Archive/任务调度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,40 +131,27 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "b537c2e49a2f8bf3",
+        "type": "tabs",
+        "children": [
           {
             "id": "fc32dfe61a3f1ee9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/完全公平调度.md",
+                "file": "Archive/任务调度.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "af6f6516823e2835",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "6804c40b06fb9317",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -178,10 +170,10 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "6804c40b06fb9317",
+  "active": "6fc0536c59845ac8",
   "lastOpenFiles": [
-    "Archive/任务调度.md",
     "Archive/完全公平调度.md",
+    "Archive/任务调度.md",
     "Archive/伪共享.md",
     "Asserts/70B0C278.png",
     "Archive/中央处理器.md",
