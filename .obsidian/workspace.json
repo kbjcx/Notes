@@ -4,19 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1888afed10c9fb24",
+        "id": "0d23ca3b5d3f0323",
         "type": "tabs",
         "children": [
           {
-            "id": "54a143ea692aa361",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "b7f218432276186c",
+            "id": "cc5f65e12f584457",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -26,21 +18,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "9f1e9d9f0dd1a880",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Archive/内存交换.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -72,43 +51,10 @@
             }
           }
         ]
-      },
-      {
-        "id": "699cfaafd48f8fd5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6fc0536c59845ac8",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "af6f6516823e2835",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "71644d3c54b6c1b0",
@@ -124,7 +70,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Archive/内存交换.md"
+                "file": "Archive/虚拟内存.md"
+              }
+            }
+          },
+          {
+            "id": "af6f6516823e2835",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
               }
             }
           },
@@ -134,18 +91,19 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/内存交换.md",
+                "file": "Archive/虚拟内存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "b537c2e49a2f8bf3",
@@ -157,9 +115,24 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/内存交换.md",
+                "file": "Archive/虚拟内存.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "6fc0536c59845ac8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               }
             }
           }
@@ -182,17 +155,21 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "9f1e9d9f0dd1a880",
+  "active": "cc5f65e12f584457",
   "lastOpenFiles": [
     "Archive/内存分段.md",
-    "Archive/内存交换.md",
     "Archive/内存碎片.md",
+    "Archive/虚拟内存.md",
+    "Archive/内存分页.md",
+    "DataView/Area/操作系统.md",
+    "DataView/Area/计算机网络.md",
+    "Archive/内存交换.md",
+    "Archive/最近最少使用算法.md",
     "Asserts/Pasted image 20230411165423.png",
     "Asserts/Pasted image 20230411164748.png",
     "Asserts/Pasted image 20230411162310.png",
     "Asserts/Pasted image 20230411160817.png",
     "Asserts/Pasted image 20230411160011.png",
-    "Archive/虚拟内存.md",
     "Asserts/Pasted image 20230411154750.png",
     "Archive/任务调度.md",
     "Archive/中断.md",
@@ -204,7 +181,6 @@
     "Asserts/70B0C278.png",
     "Archive/中央处理器.md",
     "Evergreen/CPU的缓存一致性问题.md",
-    "DataView/Area/计算机网络.md",
     "Chats/未命名.md",
     "Archive/未命名.md",
     "Chats",
@@ -219,9 +195,6 @@
     "Archive/写回.md",
     "Templates/Archive.md",
     "Templates/Evergreen.md",
-    "DataView/TODO.md",
-    "Fleeting/2023-04-09.md",
-    "Archive/存储器的层次结构.md",
     "Asserts",
     "DataView/Area",
     "DataView",
