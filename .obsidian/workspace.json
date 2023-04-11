@@ -40,12 +40,12 @@
             }
           },
           {
-            "id": "5d5bedc9a9c2674a",
+            "id": "8e41329a3b100714",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archive/内存碎片.md",
+                "file": "Archive/内存交换.md",
                 "mode": "source",
                 "source": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Archive/内存碎片.md"
+                "file": "Archive/内存交换.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/内存碎片.md",
+                "file": "Archive/内存交换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/内存碎片.md",
+                "file": "Archive/内存交换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,11 +194,12 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "5d5bedc9a9c2674a",
+  "active": "8e41329a3b100714",
   "lastOpenFiles": [
-    "Asserts/Pasted image 20230411165423.png",
     "Archive/内存分段.md",
+    "Archive/内存交换.md",
     "Archive/内存碎片.md",
+    "Asserts/Pasted image 20230411165423.png",
     "Asserts/Pasted image 20230411164748.png",
     "Asserts/Pasted image 20230411162310.png",
     "Asserts/Pasted image 20230411160817.png",
@@ -233,7 +234,6 @@
     "DataView/TODO.md",
     "Fleeting/2023-04-09.md",
     "Archive/存储器的层次结构.md",
-    "Asserts/Pasted image 20230410145248.png",
     "Asserts",
     "DataView/Area",
     "DataView",
