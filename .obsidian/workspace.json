@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archive/虚拟内存.md",
+                "file": "Archive/内存分页.md",
                 "mode": "source",
                 "source": true
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Archive/虚拟内存.md"
+                "file": "Archive/内存分页.md"
               }
             }
           },
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/虚拟内存.md",
+                "file": "Archive/内存分页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/虚拟内存.md",
+                "file": "Archive/内存分页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,9 +158,9 @@
   },
   "active": "cc5f65e12f584457",
   "lastOpenFiles": [
+    "Archive/虚拟内存.md",
     "Archive/内存分段.md",
     "Archive/内存碎片.md",
-    "Archive/虚拟内存.md",
     "Archive/内存分页.md",
     "DataView/Area/操作系统.md",
     "DataView/Area/计算机网络.md",
