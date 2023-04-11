@@ -18,6 +18,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "0e199ddd2a4fff74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Archive/局部性原理.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ]
       }
@@ -158,11 +170,12 @@
   },
   "active": "cc5f65e12f584457",
   "lastOpenFiles": [
+    "Archive/局部性原理.md",
+    "Archive/内存分页.md",
     "Asserts/Pasted image 20230411211734.png",
     "Archive/虚拟内存.md",
     "Archive/内存分段.md",
     "Archive/内存碎片.md",
-    "Archive/内存分页.md",
     "DataView/Area/操作系统.md",
     "DataView/Area/计算机网络.md",
     "Archive/内存交换.md",
@@ -193,7 +206,6 @@
     "Archive/MESI协议.md",
     "Archive/线路位宽.md",
     "Archive/写直达.md",
-    "Asserts/Pasted image 20230410170130.png",
     "Archive/写回.md",
     "Templates/Archive.md",
     "Asserts",
