@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "be39adcc3f88b3ed",
+        "id": "1888afed10c9fb24",
         "type": "tabs",
         "children": [
           {
-            "id": "3d4a10280f2cda27",
+            "id": "54a143ea692aa361",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Archive/任务调度.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3b346e223436a858",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Archive/中断.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9ef109f9f1955bab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Archive/数的二进制表示.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,9 +98,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Archive/数的二进制表示.md"
-              }
+              "state": {}
             }
           },
           {
@@ -138,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/数的二进制表示.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +129,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/数的二进制表示.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,13 +153,13 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "9ef109f9f1955bab",
+  "active": "54a143ea692aa361",
   "lastOpenFiles": [
-    "Asserts/Pasted image 20230411114127.png",
-    "Asserts/Pasted image 20230411112406.png",
+    "Archive/任务调度.md",
     "Archive/中断.md",
     "Archive/数的二进制表示.md",
-    "Archive/任务调度.md",
+    "Asserts/Pasted image 20230411114127.png",
+    "Asserts/Pasted image 20230411112406.png",
     "Archive/完全公平调度.md",
     "Archive/伪共享.md",
     "Asserts/70B0C278.png",
@@ -233,7 +200,6 @@
     "Asserts",
     "Asserts/Pasted image 20230406163522.png",
     "Asserts/Untitled 1.png",
-    "Asserts/Untitled 9 1.png",
     "Asserts/Pictures"
   ]
 }
