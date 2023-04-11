@@ -14,8 +14,21 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "b7f218432276186c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Archive/虚拟内存.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Archive/虚拟内存.md"
+              }
             }
           },
           {
@@ -107,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Archive/虚拟内存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Archive/虚拟内存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,8 +170,9 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "54a143ea692aa361",
+  "active": "b7f218432276186c",
   "lastOpenFiles": [
+    "Archive/虚拟内存.md",
     "Archive/任务调度.md",
     "Archive/中断.md",
     "Archive/数的二进制表示.md",
