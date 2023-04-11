@@ -34,7 +34,7 @@
               "type": "markdown",
               "state": {
                 "file": "Archive/内存分段.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -184,6 +184,7 @@
   },
   "active": "9f1e9d9f0dd1a880",
   "lastOpenFiles": [
+    "Asserts/Pasted image 20230411160817.png",
     "Asserts/Pasted image 20230411160011.png",
     "Archive/虚拟内存.md",
     "Archive/内存分段.md",
@@ -229,7 +230,6 @@
     "Templates",
     "Archive",
     "Asserts",
-    "Asserts/Pasted image 20230406163522.png",
     "Asserts/Pictures"
   ]
 }
