@@ -33,18 +33,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archive/内存分段.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8e41329a3b100714",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Archive/内存交换.md",
                 "mode": "source",
                 "source": true
@@ -52,7 +40,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,7 +182,7 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "8e41329a3b100714",
+  "active": "9f1e9d9f0dd1a880",
   "lastOpenFiles": [
     "Archive/内存分段.md",
     "Archive/内存交换.md",
