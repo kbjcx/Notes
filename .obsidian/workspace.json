@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "7807a6e9b1500a36",
+        "id": "b5f173a0dc4931ba",
         "type": "tabs",
         "children": [
           {
-            "id": "ac63dde35e0bafd0",
+            "id": "a5f30fcc47ed0eb5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Archive/malloc.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -50,8 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "71644d3c54b6c1b0",
@@ -66,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Archive/malloc.md"
+              }
             }
           },
           {
@@ -86,6 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Archive/malloc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Archive/malloc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,8 +156,12 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "ac63dde35e0bafd0",
+  "active": "a5f30fcc47ed0eb5",
   "lastOpenFiles": [
+    "DataView/Area/C++.md",
+    "Archive/malloc.md",
+    "DataView/Area/操作系统.md",
+    "DataView/Area/计算机网络.md",
     "Archive/Linux内存分布.md",
     "Asserts/Pasted image 20230412112911.png",
     "Asserts/Pasted image 20230412112412.png",
@@ -164,8 +175,6 @@
     "Asserts/Pasted image 20230411211734.png",
     "Archive/内存分段.md",
     "Archive/内存碎片.md",
-    "DataView/Area/操作系统.md",
-    "DataView/Area/计算机网络.md",
     "Archive/内存交换.md",
     "Asserts/Pasted image 20230411165423.png",
     "Asserts/Pasted image 20230411164748.png",
@@ -187,7 +196,6 @@
     "Archive/总线嗅探.md",
     "Archive/CPU缓存.md",
     "Archive/MESI协议.md",
-    "Archive/线路位宽.md",
     "Asserts",
     "DataView/Area",
     "DataView",
