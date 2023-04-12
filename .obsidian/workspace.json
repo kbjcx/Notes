@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "a239e60cd93fbc10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Archive/转址旁路缓存.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "0e199ddd2a4fff74",
             "type": "leaf",
             "state": {
@@ -43,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Archive/转址旁路缓存.md"
+                "file": "Archive/内存分页.md"
               }
             }
           },
@@ -117,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/转址旁路缓存.md",
+                "file": "Archive/内存分页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/转址旁路缓存.md",
+                "file": "Archive/内存分页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -181,12 +168,12 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "a239e60cd93fbc10",
+  "active": "cc5f65e12f584457",
   "lastOpenFiles": [
-    "Asserts/Pasted image 20230412095028.png",
-    "Archive/内存分页.md",
     "Archive/转址旁路缓存.md",
     "Archive/局部性原理.md",
+    "Asserts/Pasted image 20230412095028.png",
+    "Archive/内存分页.md",
     "Asserts/Pasted image 20230411211734.png",
     "Archive/虚拟内存.md",
     "Archive/内存分段.md",
@@ -208,7 +195,6 @@
     "Asserts/Pasted image 20230411112406.png",
     "Archive/完全公平调度.md",
     "Archive/伪共享.md",
-    "Asserts/70B0C278.png",
     "Archive/中央处理器.md",
     "Evergreen/CPU的缓存一致性问题.md",
     "Chats/未命名.md",
