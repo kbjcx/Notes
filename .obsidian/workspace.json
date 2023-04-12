@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ef74e921bf8975de",
+        "id": "853d3be2ebfc0533",
         "type": "tabs",
         "children": [
           {
-            "id": "8cc36348ee3c42ea",
+            "id": "e54757f9cd6d9680",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -146,8 +146,13 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "10161ed6956884ef",
+  "active": "e54757f9cd6d9680",
   "lastOpenFiles": [
+    "面试题/如果申请成功内核是怎么做的, 不成功内核又是怎么做的.md",
+    "面试题/在4G的机器上申请8G的内存会怎么样.md",
+    "面试题/在main中启动一个线程, main执行完了线程还会继续执行吗.md",
+    "面试题/如果退出那子线程没执行完怎么处理, 或者怎么不退出.md",
+    "面试题/请求本机IP带宽上限会受网卡限制吗.md",
     "Templates/面试题.md",
     "Templates/Archive.md",
     "Archive/内存分页.md",
@@ -179,12 +184,7 @@
     "Asserts/Pasted image 20230412095028.png",
     "Asserts/Pasted image 20230411211734.png",
     "Archive/内存分段.md",
-    "Archive/内存碎片.md",
     "Asserts/Pasted image 20230411165423.png",
-    "Archive/任务调度.md",
-    "Archive/中断.md",
-    "Archive/数的二进制表示.md",
-    "Archive/完全公平调度.md",
     "Chats",
     "未命名.canvas",
     "Asserts",

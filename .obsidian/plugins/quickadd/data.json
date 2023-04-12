@@ -100,14 +100,16 @@
       "name": "Question",
       "type": "Template",
       "command": true,
-      "templatePath": "",
+      "templatePath": "Templates/面试题.md",
       "fileNameFormat": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "{{VALUE:title}}"
       },
       "folder": {
-        "enabled": false,
-        "folders": [],
+        "enabled": true,
+        "folders": [
+          "面试题"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
@@ -115,13 +117,13 @@
       "appendLink": false,
       "openFileInNewTab": {
         "enabled": false,
-        "direction": "vertical",
+        "direction": "horizontal",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
       "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "fileExistsMode": "Append to the bottom of the file",
+      "setFileExistsBehavior": true
     }
   ],
   "macros": [],
