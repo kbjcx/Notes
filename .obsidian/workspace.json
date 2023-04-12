@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataView/Area/计算机网络.md",
+                "file": "Archive/内存分页.md",
                 "mode": "source",
                 "source": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataView/Area/计算机网络.md"
+                "file": "Archive/内存分页.md"
               }
             }
           },
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataView/Area/计算机网络.md",
+                "file": "Archive/内存分页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataView/Area/计算机网络.md",
+                "file": "Archive/内存分页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,8 +176,8 @@
   },
   "active": "3b346e223436a858",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "DataView/Area/计算机网络.md",
+    "conflict-files-obsidian-git.md",
     "DataView/Area/操作系统.md",
     "Asserts/Pasted image 20230411211734.png",
     "Asserts/Pasted image 20230411165423.png",
