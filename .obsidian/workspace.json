@@ -146,8 +146,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -166,7 +165,7 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "cb9a9e0faa0c24e1",
+  "active": "fc32dfe61a3f1ee9",
   "lastOpenFiles": [
     "Archive/最近最少使用算法.md",
     "Archive/内存回收.md",
