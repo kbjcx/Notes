@@ -16,12 +16,12 @@
             }
           },
           {
-            "id": "db736efb2d1195fe",
+            "id": "cb9a9e0faa0c24e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archive/缺页中断.md",
+                "file": "Archive/内存回收.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Archive/缺页中断.md"
+                "file": "Archive/内存回收.md"
               }
             }
           },
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/缺页中断.md",
+                "file": "Archive/内存回收.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/缺页中断.md",
+                "file": "Archive/内存回收.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,8 +166,9 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "db736efb2d1195fe",
+  "active": "cb9a9e0faa0c24e1",
   "lastOpenFiles": [
+    "Archive/内存回收.md",
     "Archive/缺页中断.md",
     "Archive/虚拟内存.md",
     "Archive/malloc.md",
@@ -205,7 +206,6 @@
     "Chats",
     "未命名.canvas",
     "Archive/内存.md",
-    "Archive/总线嗅探.md",
     "Asserts",
     "DataView/Area",
     "DataView",
