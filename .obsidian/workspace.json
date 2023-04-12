@@ -4,22 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "765612d81b534700",
-        "type": "tabs",
+        "id": "206256f80ee04f49",
+        "type": "split",
         "children": [
           {
-            "id": "3cb7055c6182b78e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试题/在4G的机器上申请8G的内存会怎么样.md",
-                "mode": "source",
-                "source": true
+            "id": "765612d81b534700",
+            "type": "tabs",
+            "dimension": 66.95402298850574,
+            "children": [
+              {
+                "id": "3cb7055c6182b78e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "面试题/在4G的机器上申请8G的内存会怎么样.md",
+                    "mode": "source",
+                    "source": true
+                  }
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "c85f24727c5c50fa",
+            "type": "tabs",
+            "dimension": 33.04597701149425,
+            "children": [
+              {
+                "id": "b652aa7312464970",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Archive/虚拟内存.md",
+                    "mode": "source",
+                    "source": true
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -157,9 +184,10 @@
   },
   "active": "3cb7055c6182b78e",
   "lastOpenFiles": [
+    "Archive/虚拟内存.md",
+    "面试题/在4G的机器上申请8G的内存会怎么样.md",
     "Archive/OOM.md",
     "面试题/如果申请成功内核是怎么做的, 不成功内核又是怎么做的.md",
-    "面试题/在4G的机器上申请8G的内存会怎么样.md",
     "面试题/在main中启动一个线程, main执行完了线程还会继续执行吗.md",
     "面试题/如果退出那子线程没执行完怎么处理, 或者怎么不退出.md",
     "面试题/请求本机IP带宽上限会受网卡限制吗.md",
@@ -176,7 +204,6 @@
     "Archive/最近最少使用算法.md",
     "Asserts/Pasted image 20230412163918.png",
     "Archive/缺页中断.md",
-    "Archive/虚拟内存.md",
     "Archive/malloc.md",
     "Archive/free.md",
     "Asserts/Pasted image 20230412120035.png",
