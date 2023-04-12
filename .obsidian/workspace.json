@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e885b034576b014b",
+        "id": "8f802c9bb7262dbb",
         "type": "tabs",
         "children": [
           {
-            "id": "e509c326b5b43169",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "121da2c05c22288a",
+            "id": "84a1c01a31f65795",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archive/free.md",
-                "mode": "source",
+                "file": "Archive/malloc.md",
+                "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Archive/free.md"
+                "file": "Archive/malloc.md"
               }
             }
           },
@@ -101,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/free.md",
+                "file": "Archive/malloc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/free.md",
+                "file": "Archive/malloc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,10 +157,10 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "121da2c05c22288a",
+  "active": "84a1c01a31f65795",
   "lastOpenFiles": [
-    "Archive/free.md",
     "Archive/malloc.md",
+    "Archive/free.md",
     "Asserts/Pasted image 20230412120035.png",
     "Asserts/Pasted image 20230412115917.png",
     "DataView/Area/C++.md",
