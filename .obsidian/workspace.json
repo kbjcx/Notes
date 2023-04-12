@@ -54,7 +54,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "71644d3c54b6c1b0",
@@ -158,6 +159,8 @@
   },
   "active": "a5f30fcc47ed0eb5",
   "lastOpenFiles": [
+    "Asserts/Pasted image 20230412120035.png",
+    "Asserts/Pasted image 20230412115917.png",
     "DataView/Area/C++.md",
     "Archive/malloc.md",
     "DataView/Area/操作系统.md",
@@ -180,7 +183,6 @@
     "Asserts/Pasted image 20230411164748.png",
     "Asserts/Pasted image 20230411162310.png",
     "Asserts/Pasted image 20230411160817.png",
-    "Asserts/Pasted image 20230411160011.png",
     "Archive/任务调度.md",
     "Archive/中断.md",
     "Archive/数的二进制表示.md",
@@ -195,7 +197,6 @@
     "Archive/内存.md",
     "Archive/总线嗅探.md",
     "Archive/CPU缓存.md",
-    "Archive/MESI协议.md",
     "Asserts",
     "DataView/Area",
     "DataView",
