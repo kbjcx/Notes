@@ -94,6 +94,36 @@
       "openFileInMode": "default",
       "fileExistsMode": "Append to the bottom of the file",
       "setFileExistsBehavior": true
+    },
+    {
+      "id": "8cbbc044-cb5f-474a-9755-14f6bf0288fc",
+      "name": "Question",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/面试题.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:title}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "面试题"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "horizontal",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Append to the bottom of the file",
+      "setFileExistsBehavior": true
     }
   ],
   "macros": [],

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archive/内存分页.md",
+                "file": "面试题/在4G的机器上申请8G的内存会怎么样.md",
                 "mode": "source",
                 "source": true
               }
@@ -114,9 +114,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Archive/内存分页.md"
-              }
+              "state": {}
             }
           },
           {
@@ -125,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/内存分页.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/内存分页.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,46 +170,47 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "3b346e223436a858",
+  "active": "10161ed6956884ef",
   "lastOpenFiles": [
-    "DataView/Area/计算机网络.md",
+    "面试题/在4G的机器上申请8G的内存会怎么样.md",
     "conflict-files-obsidian-git.md",
+    "Archive/任务调度.md",
+    "Archive/内存分页.md",
+    "面试题/如果退出那子线程没执行完怎么处理, 或者怎么不退出.md",
+    "面试题/请求本机IP带宽上限会受网卡限制吗.md",
+    "面试题/在main中启动一个线程, main执行完了线程还会继续执行吗.md",
+    "面试题/如果申请成功内核是怎么做的, 不成功内核又是怎么做的.md",
+    "面试题",
+    "Templates/面试题.md",
+    "DataView/Area/C++.md",
+    "Asserts/Pasted image 20230412182246.png",
+    "Asserts/Pasted image 20230412163918.png",
+    "Asserts/Pasted image 20230412120035.png",
+    "Asserts/Pasted image 20230412115917.png",
+    "Asserts/Pasted image 20230412112911.png",
+    "Asserts/Pasted image 20230412112412.png",
+    "Asserts/Pasted image 20230412111346.png",
+    "Asserts/Pasted image 20230412095028.png",
+    "Archive/转址旁路缓存.md",
+    "Archive/缺页中断.md",
+    "Archive/内存回收.md",
+    "Archive/malloc.md",
+    "Archive/free.md",
+    "Archive/OOM.md",
+    "Archive/Linux内存分布.md",
+    "DataView/Area/计算机网络.md",
     "DataView/Area/操作系统.md",
     "Asserts/Pasted image 20230411211734.png",
     "Asserts/Pasted image 20230411165423.png",
-    "Asserts/Pasted image 20230411164748.png",
-    "Asserts/Pasted image 20230411162310.png",
-    "Asserts/Pasted image 20230411160817.png",
-    "Asserts/Pasted image 20230411160011.png",
-    "Asserts/Pasted image 20230411154750.png",
-    "Asserts/Pasted image 20230411114127.png",
-    "Asserts/Pasted image 20230411112406.png",
     "Archive/虚拟内存.md",
     "Archive/最近最少使用算法.md",
     "Archive/数的二进制表示.md",
     "Archive/局部性原理.md",
     "Archive/内存碎片.md",
-    "Archive/内存分页.md",
     "Archive/内存分段.md",
     "Archive/内存交换.md",
-    "Archive/中断.md",
-    "Archive/任务调度.md",
-    "Archive/完全公平调度.md",
-    "Archive/伪共享.md",
-    "Asserts/70B0C278.png",
-    "Archive/中央处理器.md",
-    "Evergreen/CPU的缓存一致性问题.md",
-    "Chats/未命名.md",
-    "Archive/未命名.md",
     "Chats",
     "未命名.canvas",
-    "Archive/内存.md",
-    "Archive/总线嗅探.md",
-    "Archive/CPU缓存.md",
-    "Archive/MESI协议.md",
-    "Archive/线路位宽.md",
-    "Archive/写直达.md",
-    "Archive/写回.md",
     "Asserts",
     "DataView/Area",
     "DataView",
@@ -221,7 +218,6 @@
     "Evergreen",
     "Templates",
     "Archive",
-    "Asserts",
-    "Asserts/Pictures"
+    "Asserts"
   ]
 }
