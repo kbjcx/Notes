@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archive/内存回收.md",
+                "file": "Archive/最近最少使用算法.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Archive/内存回收.md"
+                "file": "Archive/最近最少使用算法.md"
               }
             }
           },
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/内存回收.md",
+                "file": "Archive/最近最少使用算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/内存回收.md",
+                "file": "Archive/最近最少使用算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,9 +167,9 @@
   },
   "active": "cb9a9e0faa0c24e1",
   "lastOpenFiles": [
+    "Archive/内存回收.md",
     "Asserts/Pasted image 20230412163918.png",
     "Archive/OOM.md",
-    "Archive/内存回收.md",
     "Archive/缺页中断.md",
     "Archive/虚拟内存.md",
     "Archive/malloc.md",
@@ -194,7 +194,6 @@
     "Archive/内存交换.md",
     "Asserts/Pasted image 20230411165423.png",
     "Asserts/Pasted image 20230411164748.png",
-    "Asserts/Pasted image 20230411162310.png",
     "Archive/任务调度.md",
     "Archive/中断.md",
     "Archive/数的二进制表示.md",
