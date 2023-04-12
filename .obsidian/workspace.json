@@ -11,8 +11,12 @@
             "id": "afef12b967e0e4b5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Archive/虚拟内存.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -66,7 +70,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Archive/虚拟内存.md"
+              }
             }
           },
           {
@@ -86,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Archive/虚拟内存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Archive/虚拟内存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
