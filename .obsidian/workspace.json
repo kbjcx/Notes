@@ -184,8 +184,9 @@
   },
   "active": "3cb7055c6182b78e",
   "lastOpenFiles": [
-    "Archive/虚拟内存.md",
+    "Archive/缺页中断.md",
     "面试题/在4G的机器上申请8G的内存会怎么样.md",
+    "Archive/虚拟内存.md",
     "Archive/OOM.md",
     "面试题/如果申请成功内核是怎么做的, 不成功内核又是怎么做的.md",
     "面试题/在main中启动一个线程, main执行完了线程还会继续执行吗.md",
@@ -203,7 +204,6 @@
     "Asserts/Pasted image 20230412182246.png",
     "Archive/最近最少使用算法.md",
     "Asserts/Pasted image 20230412163918.png",
-    "Archive/缺页中断.md",
     "Archive/malloc.md",
     "Archive/free.md",
     "Asserts/Pasted image 20230412120035.png",
