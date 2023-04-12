@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0d23ca3b5d3f0323",
+        "id": "7bc1c2d19115e7a4",
         "type": "tabs",
         "children": [
           {
-            "id": "0e199ddd2a4fff74",
+            "id": "afef12b967e0e4b5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Archive/局部性原理.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -70,9 +66,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Archive/局部性原理.md"
-              }
+              "state": {}
             }
           },
           {
@@ -92,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/局部性原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +97,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "b537c2e49a2f8bf3",
@@ -116,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/局部性原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -128,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#TODO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,7 +129,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,20 +149,20 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "0e199ddd2a4fff74",
+  "active": "afef12b967e0e4b5",
   "lastOpenFiles": [
-    "Archive/内存分页.md",
     "Archive/转址旁路缓存.md",
+    "Archive/内存分页.md",
+    "Archive/虚拟内存.md",
+    "Archive/最近最少使用算法.md",
     "Archive/局部性原理.md",
     "Asserts/Pasted image 20230412095028.png",
     "Asserts/Pasted image 20230411211734.png",
-    "Archive/虚拟内存.md",
     "Archive/内存分段.md",
     "Archive/内存碎片.md",
     "DataView/Area/操作系统.md",
     "DataView/Area/计算机网络.md",
     "Archive/内存交换.md",
-    "Archive/最近最少使用算法.md",
     "Asserts/Pasted image 20230411165423.png",
     "Asserts/Pasted image 20230411164748.png",
     "Asserts/Pasted image 20230411162310.png",
