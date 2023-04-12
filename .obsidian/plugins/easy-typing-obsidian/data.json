@@ -24,7 +24,8 @@
   "userSelRepRuleTrigger": [
     "-",
     "#",
-    "]"
+    "]",
+    "["
   ],
   "userSelRepRuleValue": [
     {
@@ -38,11 +39,23 @@
     {
       "left": "「",
       "right": "」"
+    },
+    {
+      "left": "**[[",
+      "right": "]]**"
     }
   ],
   "userDeleteRulesStrList": [
     [
       "demo|",
+      "|"
+    ],
+    [
+      "[]|",
+      "|"
+    ],
+    [
+      "()|",
       "|"
     ]
   ],
@@ -54,6 +67,10 @@
     [
       "-[]|",
       "「|」"
+    ],
+    [
+      "[[]|]",
+      "**[[|]]**"
     ]
   ],
   "userSelRuleSettingsOpen": true,
