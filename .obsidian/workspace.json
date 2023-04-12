@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archive/最近最少使用算法.md",
+                "file": "Archive/内存回收.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Archive/最近最少使用算法.md"
+                "file": "Archive/内存回收.md"
               }
             }
           },
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/最近最少使用算法.md",
+                "file": "Archive/内存回收.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "b537c2e49a2f8bf3",
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/最近最少使用算法.md",
+                "file": "Archive/内存回收.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,6 +168,7 @@
   },
   "active": "cb9a9e0faa0c24e1",
   "lastOpenFiles": [
+    "Archive/最近最少使用算法.md",
     "Archive/内存回收.md",
     "Asserts/Pasted image 20230412163918.png",
     "Archive/OOM.md",
@@ -185,7 +187,6 @@
     "Asserts/Pasted image 20230412111346.png",
     "Archive/转址旁路缓存.md",
     "Archive/内存分页.md",
-    "Archive/最近最少使用算法.md",
     "Archive/局部性原理.md",
     "Asserts/Pasted image 20230412095028.png",
     "Asserts/Pasted image 20230411211734.png",
