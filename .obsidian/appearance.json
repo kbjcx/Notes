@@ -2,7 +2,7 @@
   "accentColor": "",
   "theme": "moonstone",
   "translucency": false,
-  "nativeMenus": true,
+  "nativeMenus": false,
   "cssTheme": "AnuPpuccin",
   "interfaceFontFamily": "",
   "textFontFamily": "",
@@ -11,8 +11,7 @@
   "enabledCssSnippets": [
     "yaozhuw",
     "extend",
-    "块引用",
-    "codeblock"
+    "块引用"
   ],
   "baseFontSize": 16
 }

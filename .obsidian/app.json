@@ -16,5 +16,6 @@
   "rightToLeft": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "Archive",
-  "livePreview": false
+  "livePreview": false,
+  "showInlineTitle": true
 }
