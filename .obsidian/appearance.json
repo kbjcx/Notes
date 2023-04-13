@@ -10,7 +10,8 @@
   "showViewHeader": true,
   "enabledCssSnippets": [
     "yaozhuw",
-    "extend"
+    "extend",
+    "块引用"
   ],
   "baseFontSize": 16
 }
