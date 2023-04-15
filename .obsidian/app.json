@@ -17,5 +17,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "Archive",
   "livePreview": false,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "autoPairMarkdown": false
 }

@@ -12,5 +12,6 @@
   "dataview",
   "smart-random-note",
   "obsidian-admonition",
-  "homepage"
+  "homepage",
+  "cm-editor-syntax-highlight-obsidian"
 ]
