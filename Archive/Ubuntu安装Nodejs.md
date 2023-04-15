@@ -33,3 +33,5 @@ date: 2023-04-15 15:01
 
 ---
 #### Source
+- [linux安装nodejs【详细教程】\_菜鸟fox的博客-CSDN博客](https://blog.csdn.net/lh155136/article/details/111194424)
+- [2.2 nodejs安装和测试\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1284y1n7Ny/?p=10&spm_id_from=pageDriver&vd_source=50264a0106f7562a87cc7b7908fed99e)
