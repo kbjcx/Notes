@@ -25,7 +25,8 @@
     "-",
     "#",
     "]",
-    "["
+    "[",
+    "`"
   ],
   "userSelRepRuleValue": [
     {
@@ -43,6 +44,10 @@
     {
       "left": "**[[",
       "right": "]]**"
+    },
+    {
+      "left": "`",
+      "right": "`"
     }
   ],
   "userDeleteRulesStrList": [
