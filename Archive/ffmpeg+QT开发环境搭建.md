@@ -13,10 +13,12 @@ date: 2023-04-25 21:26
 - Android: MediaPlayer, MediaCodec 等
 - Windows: DirectShow 等
 -  跨平台库: ffmpeg
-- 
-- GUI 界面开发库
-    跨平台的 GUI 界面开发库: QT
+## GUI 界面开发库
+- 跨平台的 GUI 界面开发库: QT
+
 # 下载安装环境
-## 
+## 安装 ffmpeg
+- 下载库文件, 将源码编译成 x86, arm 等平台的动态库
+- 
 ---
 #### Source
