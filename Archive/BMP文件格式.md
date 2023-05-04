@@ -67,8 +67,7 @@ typedef __packed struct
 	uint32_t RGB_MASK[3];			//调色板用于存放RGB掩码.
 	//RGBQUAD bmiColors[256];  
 }BITMAPINFO; 
-
-
 ```
 ---
 #### Source
+- [RGB色彩空间 · FFmpeg原理](https://ffmpeg.xianwaizhiyin.net/base-knowledge/raw-rgb.html)
