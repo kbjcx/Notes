@@ -68,6 +68,8 @@ typedef __packed struct
 	//RGBQUAD bmiColors[256];  
 }BITMAPINFO; 
 ```
+> [!tip]
+> BMP 位图数据是从左下角到右上角
 ---
 #### Source
 - [RGB色彩空间 · FFmpeg原理](https://ffmpeg.xianwaizhiyin.net/base-knowledge/raw-rgb.html)
