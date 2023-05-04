@@ -35,3 +35,4 @@ int avformat_find_stream_info(AVFormatContext *ic, AVDictionary **options);
 
 ---
 #### Source
+- [FFmpeg打开输入文件 · FFmpeg原理](https://ffmpeg.xianwaizhiyin.net/api-ffmpeg/input.html)
