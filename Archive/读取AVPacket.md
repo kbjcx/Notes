@@ -20,7 +20,11 @@ date: 2023-05-04 21:50
 4. `av_packet_free`
     释放 `AVPacket` 自身的内存, 里面会调用 `av_packet_unref`
 
+##### CodeSnap
+![[2023-05-04 22_14_51.png]]
+- **Output**
 
+![[2023-05-04 22_16_31.png|300]]
 
 ---
 #### Source
