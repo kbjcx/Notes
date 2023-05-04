@@ -18,6 +18,7 @@ int avformat_open_input(AVFormatContext **ps, const char *filename,
     根据文件名的后缀来猜测以什么样的封装格式打开文件，例如 mp4，m4a 后缀的文件都用 mov 封装格式来打开
 2. `AVInputFormat* fmt`
     指定一种格式
+可以通过 `AVDictionary **options` 来[[设置解复用器参数]].
 > [!tip] 
 > FFmpeg 的函数经常会有 options 这个参数，因为每种封装格式都支持很多定制参数的，例如 mp4 封装格式支持 movflags: faststart，这样可以在录制完成之后把 moov 移动到文件头部，这样在网络里面播放 mp4 的时候，就会更快一些
 
