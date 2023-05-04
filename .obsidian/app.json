@@ -18,5 +18,6 @@
   "newFileFolderPath": "Archive",
   "livePreview": false,
   "showInlineTitle": true,
-  "autoPairMarkdown": false
+  "autoPairMarkdown": false,
+  "alwaysUpdateLinks": true
 }
