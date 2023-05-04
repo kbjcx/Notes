@@ -11,7 +11,8 @@
   "enabledCssSnippets": [
     "yaozhuw",
     "extend",
-    "块引用"
+    "块引用",
+    "两端对齐"
   ],
   "baseFontSize": 16
 }
