@@ -79,8 +79,10 @@ B &= 1.772\times Cb + Y
 \end{aligned}$$
 至此， R 跟 B 已经求出来了。把 R 跟 B 套进公式 Y:
 $$\begin{aligned}
-
+Y & = 0.299\times (1.402\times Cr + Y) + 0.587G + 0.114\times (1.772\times Cb + Y)\\
+G &= Y-0.713Cr - 0.344Cb
 \end{aligned}$$
 
 ---
 #### Source
+- [RGB与YUV相互转换 · FFmpeg原理](https://ffmpeg.xianwaizhiyin.net/base-knowledge/raw-yuv-to-rgb.html)
