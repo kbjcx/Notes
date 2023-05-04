@@ -20,11 +20,16 @@ date: 2023-05-04 21:50
 4. `av_packet_free`
     释放 `AVPacket` 自身的内存, 里面会调用 `av_packet_unref`
 
+> [!attention] 
+> `AVPacket` 他本身是没有编码数据的，他只是管理编码数据，也就是说 `av_packet_alloc` 的时候，`AVPacket` 里面还没有编码数据的，是后面通过 `av_read_frame` 把 `AVPacket` 里面的 `buf` 引用指向了编码数据.
+> 如果你要调多次 `av_read_frame`，只需要先用 `av_packet_unref` 消除 `AVPacket` 里面对之前的编码数据的引用即可. 只有最后用不到 `AVPacket` 的时候，才需要调 `av_packet_free` 来释放 `AVPacket` 的内存
+
 ##### CodeSnap
-![[2023-05-04 22_14_51.png]]
+![[2023-05-04 22_23_41.png]]
 - **Output**
 
 ![[2023-05-04 22_16_31.png|300]]
 
 ---
 #### Source
+- [FFmpeg读取文件内容AVpacket · FFmpeg原理](https://ffmpeg.xianwaizhiyin.net/api-ffmpeg/avpacket.html)
