@@ -41,6 +41,22 @@ Cg 代表绿色色色度的分量，是通过 RGB 里面的 G 的值减去 Y 的
 Cb 跟 Cr 的颜色空间如下图:
 ![[Pasted image 20230504141251.png|500]]
 
+##### YUV 的三种采样模式
+1. 4:4:4, 一个像素占 3 个字节
+2. 4:2:2, 一个像素占 2 个字节
+3. 4:2:0, 一个像素占 1.5 个字节
+
+ffmpeg 使用的转换命令:
+```shell
+ffmpeg -i juren.jpg -s 1920*1080 -pix_fmt yuvj444p juren_yuv_444.yuv
+ffmpeg -i juren.jpg -s 1920*1080 -pix_fmt yuvj422p juren_yuv_422.yuv
+ffmpeg -i juren.jpg -s 1920*1080 -pix_fmt yuvj420p juren_yuv_420.yuv
+```
+> [!important] 
+> YUV420 比 YUV444 少了一半的储存空间, 但是对视觉体验没有影响
+
+> [!attention] 
+> YUV 文件格式，没有头信息，没有宽高信息，所以打开 YUV 文件的时候，需要指定宽高，要指定采样格式是 4:4:4。如果你有一个 yuv 图片，但是你忘记了它的宽高跟采样格式，那你就无法正常显示这个 yuv 图片
 ---
 #### Source
 - [YUV色彩空间 · FFmpeg原理](https://ffmpeg.xianwaizhiyin.net/base-knowledge/raw-yuv.html)
