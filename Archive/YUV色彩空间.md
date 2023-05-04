@@ -24,7 +24,24 @@ date: 2023-05-04 12:05
 
 一般在开发中提到的 YUV 都是指**YCbCr**.
 
+YUV 里面的 U 就是 Cb, 即色调. V 就是 Cr, 即色饱和度.
+$$
+\begin{aligned}
+Cb &= Blue - Y\\
+Cr &= Red - Y\\
+Cg &= Green - Y
+\end{aligned}
+$$
+Cb 代表蓝色色度的分量，是通过 RGB 里面的 B 的值减去 Y 的值得到的.
+
+Cr 代表红色色度的分量，是通过 RGB 里面的 R 的值减去 Y 的值得到.
+
+Cg 代表绿色色色度的分量，是通过 RGB 里面的 G 的值减去 Y 的值得到的.
+
+Cb 跟 Cr 的颜色空间如下图:
+![[Pasted image 20230504141251.png]]
 
 
 ---
 #### Source
+- [YUV色彩空间 · FFmpeg原理](https://ffmpeg.xianwaizhiyin.net/base-knowledge/raw-yuv.html)
