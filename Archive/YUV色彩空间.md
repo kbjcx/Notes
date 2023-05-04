@@ -46,7 +46,14 @@ Cb 跟 Cr 的颜色空间如下图:
 2. 4:2:2, 一个像素占 2 个字节
 3. 4:2:0, 一个像素占 1.5 个字节
 
-ffmpeg 使用的转换命令:
+- 444 格式存储每个像素 YUV 值
+    ![[Pasted image 20230504152659.png|400]]
+- 422 格式在水平方向上进行了 2:1压缩, 存储相邻两个像素的平均 UV 值
+    ![[Pasted image 20230504152859.png|400]]
+- 420 格式在水平和垂直方向都进行了 2:1压缩, 存储相邻 4 个像素的 UV 值 (平均, 加权等方式)
+    ![[Pasted image 20230504153035.png|400]]
+
+- ffmpeg 使用的转换命令:
 ```shell
 ffmpeg -i juren.jpg -s 1920*1080 -pix_fmt yuvj444p juren_yuv_444.yuv
 ffmpeg -i juren.jpg -s 1920*1080 -pix_fmt yuvj422p juren_yuv_422.yuv
@@ -56,7 +63,17 @@ ffmpeg -i juren.jpg -s 1920*1080 -pix_fmt yuvj420p juren_yuv_420.yuv
 > YUV420 比 YUV444 少了一半的储存空间, 但是对视觉体验没有影响
 
 > [!attention] 
-> YUV 文件格式，没有头信息，没有宽高信息，所以打开 YUV 文件的时候，需要指定宽高，要指定采样格式是 4:4:4。如果你有一个 yuv 图片，但是你忘记了它的宽高跟采样格式，那你就无法正常显示这个 yuv 图片
+> YUV 文件格式，没有头信息，没有宽高信息，所以打开 YUV 文件的时候，需要指定宽高，要指定采样格式是 4:4:4. 如果你有一个 YUV 图片，但是你忘记了它的宽高跟采样格式，那你就无法正常显示这个 YUV 图片.
+
+- YUV 格式有三种存储方式: 
+    1. **planner**
+        平面格式，先连续存储所有像素点的 Y，紧接着存储所有像素点的 U，随后是所有像素点的 V
+    1. **semi-planner**
+        半平面的 YUV 格式，Y 分量单独存储，但是 UV 分量交叉存储
+    1. **packed**
+        每个像素点的 Y, U, V 是连续交错存储的
+
+
 ---
 #### Source
 - [YUV色彩空间 · FFmpeg原理](https://ffmpeg.xianwaizhiyin.net/base-knowledge/raw-yuv.html)
