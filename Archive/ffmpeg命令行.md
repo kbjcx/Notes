@@ -24,5 +24,10 @@ ffmpeg 命令行分为 6 个部分:
 > [!important] 
 > **ffmpeg 的命令行参数是没有先后顺序的**
 > `ffmpeg -c copy -t 10 -f mpegts juren.ts -ss 00:01:32 -f flv -i juren.flv -y -benchmark` 与上述命令作用相同
+
+##### 改变编码格式
+将 H264 编码转为 H265 编码, 其中 `-c` 表示指定编码格式, 其后的 `v` 和 `a` 分别表示视频和音频.
+`ffmpeg -i input.mp4 -c:v hevc -c:a copy output.mp4`
+
 ---
 #### Source
