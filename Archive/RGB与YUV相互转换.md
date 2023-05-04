@@ -36,7 +36,8 @@ $$
 > BT. 2020 标准生成的 YUV 数据在编码系统里面的压缩率是比 BT. 709 小的，虽然现在还没开始进行编码压缩，但是确确实实，K 权重因子会影响压缩效果.
 
 - 以 BT. 601 标准[1]——标清数字电视（SDTV)为例
-Cr 的计算过程为: 
+##### RGB 转换为 YUV
+- Cr 的计算过程为: 
 $$
 \begin{aligned}
 Cr &= R-Y\\
@@ -56,10 +57,30 @@ $$
 $$
 (R-Y)_{min} = -0.701R_{max}
 $$
-但是由于 Cr 要跟 Y 一起传输, 而 Y 的取值范围为 $[0-R_{max}]$, 因此需要将 Cr 进行归一化, 将 Cr 的取值范围变为 $[-0.5R_{max}, 0.5R_{max}]$
-y
+但是由于 Cr 要跟 Y 一起传输, 而 Y 的取值范围为 $[0-R_{max}]$, 因此需要将 Cr 进行归一化, 将 Cr 的取值范围变为 $[-0.5R_{max}, 0.5R_{max}]$, 因此 Cr 表示为:
+$$
+\begin{aligned}
+Cr &= (R-Y)/1.402\\
+&=0.713\times(R-Y)
+\end{aligned}
+$$
+- Cb 的计算过程类似, 得到 Cb 表达为:
+$$
+\begin{aligned}
+Cb &= (B - Y)/1.772\\
+&=0.564\times (B-Y)
+\end{aligned}
+$$
+##### 将 YUV 转换为 RGB
+根据 Cr 和 Cb 的转换公式, 易得:
+$$\begin{aligned}
+R &= 1.402\times Cr + Y\\
+B &= 1.772\times Cb + Y
+\end{aligned}$$
+至此， R 跟 B 已经求出来了。把 R 跟 B 套进公式 Y:
+$$\begin{aligned}
 
-
+\end{aligned}$$
 
 ---
 #### Source
