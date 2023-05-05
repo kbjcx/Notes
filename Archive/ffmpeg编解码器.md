@@ -23,7 +23,17 @@ date: 2023-05-05 20:41
 1. `avcodec_alloc_context3`
     通过传递 `AVCodec` 编解码信息来初始化上下文
 2. `avcodec_parameters_to_context`
-    把流的 ``
+    把流的 `AVCodecParameters` 里面的编解码参数复制到 `AVCodecContext`
+3. `AVCodec_open2`
+    打开一个编码器或者解码器
+4. `avcodec_is_open`
+    判断一个编码器或者解码器是否打开
+5. `avcodec_send_packet`
+    往 `AVCodecContext` 解码器发送一个 `AVPacket`
+6. `avcodec_receive_frame`
+    从 `AVCodecContext` 解码器读取一个 `AVFrame`
+
+
 ---
 #### Source
 - [如何使用FFmpeg的解码器 · FFmpeg原理](https://ffmpeg.xianwaizhiyin.net/api-ffmpeg/decode.html)
