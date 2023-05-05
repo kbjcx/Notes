@@ -31,8 +31,16 @@ date: 2023-05-05 20:41
 5. `avcodec_send_packet`
     往 `AVCodecContext` 解码器发送一个 `AVPacket`
 6. `avcodec_receive_frame`
-    从 `AVCodecContext` 解码器读取一个 `AVFrame`
+    从 `AVCodecContext` 解码器读取一个 `AVFrame` 
 
+###### 视频解码流程
+发送一个 `AVPacket`, 死循环读取解码器, 直到返回 `EAGAIN`, 循环是因为可能有多个 `AVFrame` 需要读取.
+
+如果返回了 `EAGAIN`, 则说明解码器需要更多的 `AVPacket` 才能够解码出 `AVFRame`
+
+如果已经读到文件末尾，没有 `AVPacket` 能从容器里面读出来了, 这时候就需要往解码器发一个 `size` 跟 `data` 都是 0 的 `AVPacket` ，这样解码器就会把它内部剩余的帧，全部都刷出来.
+
+当解码器完全没有帧可以输出时, 就会返回 `AVERROR_EOF`, 表示解码器结束.
 
 ---
 #### Source
