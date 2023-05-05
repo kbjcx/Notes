@@ -20,7 +20,10 @@ date: 2023-05-05 20:41
     解码之后的 YUV 数据, `AVFrame` 跟 `AVPacket` 类似, 都只是管理数据的结构体
 
 ###### 相关的 API 函数
-
-
+1. `avcodec_alloc_context3`
+    通过传递 `AVCodec` 编解码信息来初始化上下文
+2. `avcodec_parameters_to_context`
+    把流的 ``
 ---
 #### Source
+- [如何使用FFmpeg的解码器 · FFmpeg原理](https://ffmpeg.xianwaizhiyin.net/api-ffmpeg/decode.html)
