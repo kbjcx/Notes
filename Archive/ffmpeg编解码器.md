@@ -34,6 +34,7 @@ date: 2023-05-05 20:41
     从 `AVCodecContext` 解码器读取一个 `AVFrame` 
 
 ###### 视频解码流程
+`avcodec_alloc_context3` ➔ `avcodec_parameters_to_context` ➔ `avcodec_find_decoder` ➔ `avcodec_open2`
 发送一个 `AVPacket`, 死循环读取解码器, 直到返回 `EAGAIN`, 循环是因为可能有多个 `AVFrame` 需要读取.
 
 如果返回了 `EAGAIN`, 则说明解码器需要更多的 `AVPacket` 才能够解码出 `AVFRame`
