@@ -44,6 +44,13 @@ date: 2023-05-05 20:41
 
 ###### CodeSnap
 ![[Pasted image 20230506220756.png]]
+
+##### 视频编码过程
+###### 打开编码器与打开解码器的区别
+1. 解码器没有设置 time_base （时间基），编码器需要设置时间基
+2. 
+
+
 ---
 #### Source
 - [如何使用FFmpeg的解码器 · FFmpeg原理](https://ffmpeg.xianwaizhiyin.net/api-ffmpeg/decode.html)
