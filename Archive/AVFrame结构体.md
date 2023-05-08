@@ -27,7 +27,22 @@ tag: TODO
             AV_PICTURE_TYPE_BI,    ///< BI type
         }
         ```
-3. 
-
+3. `AVRational sample_aspect_ratio`
+    - 宽高比, 用如下结构体表达分数: 
+        ```cpp
+        /**
+         * rational number numerator/denominator
+         */
+        typedef struct AVRational{
+            int num; ///< numerator
+            int den; ///< denominator
+        } AVRational;
+        ```
+4. `int8_t* qscale_table`
+    - QP 表
+    - 指向一块内存, 里面存储每个宏块的 QP 值, 宏块编号从左往右, 每个宏块对应有个 QP , 宏块的大小为 $16\times 16$, 因此每行的宏块数计算如下: 
+       `int mb_stride = pCodecCtx->width/16 + 1`
+    - 宏块总数: 
+        `int mb_sum = ((pCodecCtx->height+15)>>4)*(pCodecCtx->width/16+1)`
 ---
 #### Source
