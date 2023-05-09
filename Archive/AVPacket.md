@@ -3,7 +3,6 @@ aliases: []
 area: 音视频开发
 project: 
 date: 2023-05-08 22:38
-tag: TODO
 ---
 ---
 #### Description
@@ -21,6 +20,5 @@ tag: TODO
     - 解码时间戳
 5. `int stream_index`
     - 标识该 AVPacket 所属的视频/音频流
-
 ---
 #### Source
