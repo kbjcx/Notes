@@ -46,3 +46,4 @@ tag: TODO
         `int mb_sum = ((pCodecCtx->height+15)>>4)*(pCodecCtx->width/16+1)`
 ---
 #### Source
+- [FFMPEG结构体分析：AVFrame\_sample\_aspect\_ratio\_雷霄骅的博客-CSDN博客](https://blog.csdn.net/leixiaohua1020/article/details/14214577)
