@@ -44,6 +44,8 @@ tag: TODO
        `int mb_stride = pCodecCtx->width/16 + 1`
     - 宏块总数: 
         `int mb_sum = ((pCodecCtx->height+15)>>4)*(pCodecCtx->width/16+1)`
+5. `int linesize[AV_NUM_DATA_POINTERS]`
+    linesize 是针对不同 data 流的每一行的长度, AVFrame 的 width 是分辨率大小, 但是有可能会因为芯片要求进行 64 位或 128 位对其, 当无法对齐时
 ---
 #### Source
 - [FFMPEG结构体分析：AVFrame\_sample\_aspect\_ratio\_雷霄骅的博客-CSDN博客](https://blog.csdn.net/leixiaohua1020/article/details/14214577)

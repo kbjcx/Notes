@@ -22,6 +22,7 @@ ASCII 格式可用文本编辑器打开, 读取对应图像的数据, 比如 PPM
     1. 头部分: Magic Number + 图像的宽度 + 图像的高度 + 最大像素值 (0-255)
     2. 图像数据部分: 
         ASCII 格式: 按 RGB 的顺序排列, RGB 中间用空格隔开, 图片每一行用回车隔开
-        Binary 格式: 用 24 bit 代表每一个像素, 
+        Binary 格式: 用 24 bit 代表每一个像素,  RGB 分别占 8 bit
 ---
 #### Source
+- [PPM文件格式详解\_ppm格式\_\_kerneler的博客-CSDN博客](https://blog.csdn.net/qq_38350702/article/details/123215310)
