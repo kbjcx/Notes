@@ -45,7 +45,7 @@ tag: TODO
     - 宏块总数: 
         `int mb_sum = ((pCodecCtx->height+15)>>4)*(pCodecCtx->width/16+1)`
 5. `int linesize[AV_NUM_DATA_POINTERS]`
-    linesize 是针对不同 data 流的每一行的长度, AVFrame 的 width 是分辨率大小, 但是有可能会因为芯片要求进行 64 位或 128 位对其, 当无法对齐时
+    `linesize` 是针对不同 `data` 流的每一行的长度, `AVFrame` 的 `width` 是分辨率大小, 但是有可能会因为芯片要求进行 **64 位或 128 位对齐**, 当无法对齐时会在每一行的结尾**补 0x00 占位**, 因此**<font color="#0593A2">解码的时候宽和 YUV 的 buffer 以 linesize 为准</font>**.
 ---
 #### Source
 - [FFMPEG结构体分析：AVFrame\_sample\_aspect\_ratio\_雷霄骅的博客-CSDN博客](https://blog.csdn.net/leixiaohua1020/article/details/14214577)
