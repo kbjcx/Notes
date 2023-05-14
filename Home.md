@@ -13,11 +13,3 @@ dv.table(
     pages.sort(b => b.file.mtime, "desc").map(b => [b.file.link])
 )
 ```
-
-```dataviewjs
-let files;
-dv.table(
-    ["Name"],
-    pages.sort(b => b.file.mtime, "desc").map(b => [b.file.link])
-)
-```

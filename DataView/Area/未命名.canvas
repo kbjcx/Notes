@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"type":"file","file":"DataView/Area/操作系统.md","id":"24cf1e7b0d288436","x":-560,"y":-660,"width":400,"height":438},
+		{"id":"86a914d3475898cc","x":-160,"y":-660,"width":400,"height":438,"type":"file","file":"DataView/Area/计算机网络.md"},
+		{"id":"648e9e233b680ff2","x":-560,"y":-222,"width":400,"height":452,"type":"file","file":"DataView/Area/音视频开发.md"},
+		{"id":"583e73af61880f86","x":-160,"y":-222,"width":400,"height":452,"type":"file","file":"DataView/Area/C++.md"}
+	],
+	"edges":[]
+}
