@@ -24,7 +24,7 @@ tags: []
 - 当旧的存储空间不够时，扩充一个新的空间，空间大小为原来大小的两倍，复制元素到新的空间，并释放旧空间
 
 成员函数：
-- 
+- `insert(pos, elem)/insert(pos, n, elem)/insert(pos, begin, end)`
 
 ###### Array
 特点：
