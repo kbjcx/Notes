@@ -19,6 +19,7 @@ tags: []
 - `insert(pos, elem)/insert(pos, n, elem)/insert(pos, begin, end)`: 在指定位置插入元素
 - `erase(pos)/erase(begin, end)`: 移除元素
 - `reverse(pos1, pos2)`: 将 pos1 到 pos2 的元素逆序
+- `data()`: 返回第一个元素的指针，相当于 `&front()`
 - `capacity()`, `size()`, `at()`, `push_back()`, `pop_back()`, `front()`, `back()`
 ---
 #### Source
