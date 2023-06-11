@@ -17,7 +17,19 @@ tags: []
 - 没有固定的容量限制
 
 ##### 成员函数
-- ``
+- `front()`, `back()`
+- `push_back()`, `push_front()`
+- `insert(pos, elem)/insert(pos, n, elem)/insert(pos, begin, end)`
+- `pop_back()`, `pop_front()`
+- `erase(begin, end)/erase(elem)`
+- `resize()`, `size()`
+- `remove()`: 移除链表中与指定值相等的元素
+- `unique()`: 移除链表中相邻重复的元素
+- `sort()`: 对链表进行排序、
+- `reverse()`: 翻转链表
+- `splice()`: 将另一个链表插入到指定位置
+- `merge()`: 将另一个已排序的链表合并到当前链表
+- `swap()` : 交换两个链表
 
 ---
 #### Source
