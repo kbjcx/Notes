@@ -19,7 +19,10 @@ tags: []
 ##### 成员函数
 - `insert()`
 - `size()`, `max_size()`,
-- `insert()`
+- `insert(elem)/insert(pos, elem)/insert(begin, end)`
+- `erase(pos)/erase(begin, end)/erase(elem)`
+
+##### 底层实现
 
 
 ---
