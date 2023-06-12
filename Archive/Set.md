@@ -23,7 +23,11 @@ tags: []
 - `erase(pos)/erase(begin, end)/erase(elem)`
 
 ##### 底层实现
+- set/multiset
 红黑树，自平衡的二叉搜索树
+- unordered_set
+哈希表实现
+
 
 ---
 #### Source
