@@ -9,6 +9,10 @@ tags: []
 #### Description
 > [!note] UDP 不提供复杂的控制机制，利用 IP 提供面向无连接的通信服务
 
+##### UDP 头部
+![[Pasted image 20230613171307.png|500]]
+
+
 
 ---
 #### Source
