@@ -13,6 +13,8 @@ tags: []
 - **<font color="#0593A2">序列号</font>**: 解决网络包乱序问题
 - **<font color="#0593A2">确认号</font>**: 解决丢包问题
 
+##### TCP 三次握手
+![[Pasted image 20230613173041.png|500]]
 
 
 
