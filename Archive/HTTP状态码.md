@@ -29,7 +29,10 @@ tags: []
 
 ##### 5XX
 - 这类状态码表示请求报文正确，但服务器处理时内部发生了错误
-- **<font color="#0593A2">[501 Not Implemented]</font>**: 表示服务端请求的
+- **<font color="#0593A2">[501 Not Implemented]</font>**: 表示服务端请求的功能还不支持
+- **<font color="#0593A2">[502 Bad Gateway]</font>**: 表示服务器作为网关或代理时访问后端服务器发生错误
+- **<font color="#0593A2">[503 Service Unavailable]</font>** : 表示服务器当前正忙，无法响应客户端的请求
 
 ---
 #### Source
+- [3.1 HTTP 常见面试题 | 小林coding](https://xiaolincoding.com/network/2_http/http_interview.html#http-%E5%B8%B8%E8%A7%81%E7%9A%84%E7%8A%B6%E6%80%81%E7%A0%81%E6%9C%89%E5%93%AA%E4%BA%9B)
