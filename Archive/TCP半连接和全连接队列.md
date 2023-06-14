@@ -23,6 +23,9 @@ tags: []
     2. 若全连接队列满了，且没有重传 SYN+ACK 包的连接请求多于 1 个，则会丢弃
     3. 如果没有开启 `tcp_syncookies`，并且 `max_syn_backlog` 减去当前半连接队列长度小于 (`max_syn_backlog >> 2`)，则会丢弃
 
+- 开启 syncookies 功能就可以在不使用 SYN 半连接队列的情况下成功建立连接
+- 要想增大半连接队列，不能只单纯增大 `tcp_max_syn_backlog` 的值，还需一同增大 `somaxconn` 和 `backlog`，也就是增大 `accept` 队列。否则，只单纯增大 `tcp_max_syn_backlog` 是无效的
+
 
 ---
 #### Source
