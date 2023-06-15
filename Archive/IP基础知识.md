@@ -38,3 +38,4 @@ C 类地址有 21位网络号, 8 位主机号, 即个网络号以及 $2^{8} - 2$
 
 ---
 #### Source
+- [5.1 IP 基础知识全家桶 | 小林coding](https://xiaolincoding.com/network/4_ip/ip_base.html#%E6%97%A0%E5%88%86%E7%B1%BB%E5%9C%B0%E5%9D%80-cidr)
