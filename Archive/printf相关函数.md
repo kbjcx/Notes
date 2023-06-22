@@ -15,7 +15,10 @@ tags: []
 int printf(const char *format, ...)
 ```
 - 将内容格式化输出到标准输出设备
-
+##### `vprintf`
+```cpp
+int vprintf(const char *format, va_list arg)
+```
 ##### `dprintf`
 ```cpp
 /**
@@ -39,8 +42,17 @@ int fprintf(FILE *stream, const char *format, ...)
 ```cpp
 int vfprintf(FILE *stream, const char *format, va_list arg)
 ```
-- 使用可变参数列表
-
+- 直接传入可变参数列表, 在于实现自定义的格式化输出函数
+##### `sprintf`
+```cpp
+int sprintf(char *str, const char *format, ...)
+```
+- 需要注意 `str` 指向的内存空间的地址大小要保证能够存放的下 format 指定的数据内容，否则会出现缓冲区溢出问题，所以这个函数使用起来不安全，有缓冲区溢出的风险
+##### `asprintf`
+```cpp
+int asprintf(char **strp, const char *fmt, ...);
+```
+- 创建一个在堆上的缓冲区, 
 
 ---
 #### Source
