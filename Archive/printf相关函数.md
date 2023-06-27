@@ -52,7 +52,30 @@ int sprintf(char *str, const char *format, ...)
 ```cpp
 int asprintf(char **strp, const char *fmt, ...);
 ```
-- 创建一个在堆上的缓冲区, 
+- 创建一个在堆上的缓冲区, 不会有缓存溢出的风险
+- 返回的指针需要主动释放
+##### `vsprintf`
+```cpp
+int vsprintf(char *str, const char *format, va_list arg)
+```
+- 使用参数列表格式化输出到字符串
+- 有缓冲区溢出的风险
+##### `snprintf`
+```cpp
+ int snprintf(char *str, int n, char * format, ...);
+```
+- 指定写入长度, 避免缓冲区溢出的风险
+##### `vsnprintf`
+```cpp
+int vsnprintf(char *str, size_t size, const char *format, va_list arg)
+```
+- 防止缓冲区溢出
+##### `vsaprintf`
+```cpp
+int vasprintf(char **strp, const char *format, va_list ap);
+```
+- 可以自动为输出的字符串分配足够的内存空间，在无需提前计算字符串长度或手动分配内存的情况下，将格式化后的字符串输出到字符数组中
+- 需要主动释放内存
 
 ---
 #### Source
