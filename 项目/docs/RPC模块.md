@@ -52,7 +52,7 @@
 3. 心跳包请求: HEARTBEAT_PACKET, 接收客户端的心跳包
 # 需要的服务
 1. 服务发布: RPC_PUBLISH_REQUEST, 向客户端发布服务变更消息
-2. 服务提供方请求: RPC_PROVIDER, 向服务中心声明为服务提供方
+2. 服务提供方请求: RPC_PROVIDER, 向服务中心声明为服务提供方, 提供服务方的地址, 然后再注册服务
 3. 心跳包: HEARTBEAT_PACKET, 向服务中心发送心跳包
 4. 服务注册: RPC_SERVICE_REGISTER, 向服务中心注册服务
 
