@@ -7,7 +7,6 @@ date: {{DATE:YYYY-MM-DD HH-mm}}
 ---
 
 ---
-# Source
 
 
 
