@@ -4,17 +4,15 @@
   "switcher",
   "graph",
   "backlink",
-  "canvas",
   "outgoing-link",
   "tag-pane",
   "page-preview",
-  "daily-notes",
-  "templates",
-  "note-composer",
   "command-palette",
   "slash-command",
   "editor-status",
   "bookmarks",
   "markdown-importer",
-  "outline"
+  "random-note",
+  "outline",
+  "slides"
 ]
