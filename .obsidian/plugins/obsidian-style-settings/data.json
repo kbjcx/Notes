@@ -98,12 +98,6 @@
   "anuppuccin-theme-settings@@anp-status-bar-select": "anp-fixed-status-bar",
   "anuppuccin-theme-settings@@anp-hide-borders": true,
   "yaozhuwa@css@@clutter-free-headings": false,
-  "anuppuccin-theme-settings@@h1-font": "\".萍方-简\"",
-  "anuppuccin-theme-settings@@h2-font": "\".萍方-简\"",
-  "anuppuccin-theme-settings@@h3-font": "\".萍方-简\"",
-  "anuppuccin-theme-settings@@h4-font": "\".萍方-简\"",
-  "anuppuccin-theme-settings@@h5-font": "\".萍方-简\"",
-  "anuppuccin-theme-settings@@h6-font": "\".萍方-简\"",
   "anuppuccin-theme-settings@@h1-size": 1.75,
   "yaozhuwa@css@@blank-line-tweak": false,
   "yaozhuwa@css@@center-image": false,
@@ -112,5 +106,6 @@
   "anuppuccin-theme-settings@@anp-code-text-color@@light": "#548EDA",
   "anuppuccin-theme-settings@@callout-radius": 10,
   "anuppuccin-theme-settings@@callout-title-opacity": 0.15,
-  "anuppuccin-theme-settings@@file-margins": 10
+  "anuppuccin-theme-settings@@file-margins": 10,
+  "anuppuccin-theme-settings@@anp-h1-color-custom": "anp-h1-rosewater"
 }
