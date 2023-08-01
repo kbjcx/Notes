@@ -12,6 +12,9 @@ date: 2023-07-21 22:27
 ![[Redis.List|seamless]]
 
 # Hash
+![[Redis.Hash|seamless]]
+
+# Set
 
 
 ---

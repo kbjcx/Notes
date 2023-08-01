@@ -22,8 +22,12 @@ Hash 类型的 （key，field， value） 的结构与对象的（对象 id，�
 
 > [!note] 一般对象用 String + Json 存储，对象中某些频繁变化的属性可以考虑抽出来用 Hash 类型存储
 
+##### 购物车
+以用户 id 为 key，商品 id 为 field，商品数量为 value，恰好构成了购物车的 3 个要素
+
+
 #### 常用命令
-```cpp
+```sh
 # 存储一个哈希表key的键值
 HSET key field value   
 # 获取哈希表key对应的field键值
