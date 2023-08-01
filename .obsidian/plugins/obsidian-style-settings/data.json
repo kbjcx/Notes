@@ -105,5 +105,6 @@
   "anuppuccin-theme-settings@@callout-radius": 10,
   "anuppuccin-theme-settings@@callout-title-opacity": 0.15,
   "anuppuccin-theme-settings@@file-margins": 10,
-  "anuppuccin-theme-settings@@anp-h1-color-custom": "anp-h1-rosewater"
+  "anuppuccin-theme-settings@@anp-h1-color-custom": "anp-h1-rosewater",
+  "yaozhuwa@css@@outline-tweak": false
 }

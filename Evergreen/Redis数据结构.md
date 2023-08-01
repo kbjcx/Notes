@@ -1,17 +1,17 @@
 ---
-aliases: []
 area: redis
 project: 
-date: 2023-07-21 22:27
 tags: []
+date: 2023-07-21 22:27
 ---
 ---
-#### Content
-##### String
+# String
 ![[Redis.String|seamless]]
 
-##### List
+# List
+![[Redis.List|seamless]]
 
+# Hash
 
 
 ---

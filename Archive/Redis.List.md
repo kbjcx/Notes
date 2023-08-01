@@ -35,6 +35,29 @@ Redis 的 List 和 Stream 两种数据类型，就可以满足消息队列的这
 > 
 > 为了留存消息，List 类型提供了 `BRPOPLPUSH` 命令，这个命令的**作用是让消费者程序从一个 List 中读取消息，同时，Redis 会把这个消息再插入到另一个 List（可以叫作备份 List）留存**
 
-> 【
+> [!question] List 作为消息队列有什么缺陷？
+> 1. **List 不支持多个消费者消费同一条消息**，因为一旦消费者拉取一条消息后，这条消息就从 List 中删除了，无法被其它消费者再次消费，要实现一条消息可以被多个消费者消费，那么就要将多个消费者组成一个消费组，使得多个消费者可以消费同一条消息，但是 **List 类型并不支持消费组的实现**
+
+> [!tip] Redis 从 5.0 版本开始提供的 Stream 数据类型了，Stream 同样能够满足消息队列的三大需求，而且它还支持「消费组」形式的消息读取
+
+#### 常用命令
+```cpp
+# 将一个或多个值value插入到key列表的表头(最左边)，最后的值在最前面
+LPUSH key value [value ...] 
+# 将一个或多个值value插入到key列表的表尾(最右边)
+RPUSH key value [value ...]
+# 移除并返回key列表的头元素
+LPOP key     
+# 移除并返回key列表的尾元素
+RPOP key 
+
+# 返回列表 key 中指定区间内的元素，区间以偏移量 start 和 stop 指定，从0开始
+LRANGE key start stop
+
+# 从key列表表头弹出一个元素，没有就阻塞timeout秒，如果timeout=0则一直阻塞
+BLPOP key [key ...] timeout
+# 从key列表表尾弹出一个元素，没有就阻塞timeout秒，如果timeout=0则一直阻塞
+BRPOP key [key ...] timeout
+```
 
 ---
