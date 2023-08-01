@@ -23,7 +23,7 @@ Hash 类型的 （key，field， value） 的结构与对象的（对象 id，�
 > [!note] 一般对象用 String + Json 存储，对象中某些频繁变化的属性可以考虑抽出来用 Hash 类型存储
 
 #### 常用命令
-```shell
+```c
 # 存储一个哈希表key的键值
 HSET key field value   
 # 获取哈希表key对应的field键值
@@ -43,12 +43,6 @@ HGETALL key
 
 # 为哈希表key中field键的值加上增量n
 HINCRBY key field n  
-```
-
-```cpp
-int fun() {
-return 0;
-}
 ```
 
 ---
