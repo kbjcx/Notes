@@ -79,5 +79,55 @@ OK
 > DEL name
 (integer) 1
 ``` 
+**批量设置**
+```cpp
+# 批量设置 key-value 类型的值
+> MSET key1 value1 key2 value2 
+OK
+# 批量获取多个 key 对应的 value
+> MGET key1 key2 
+1) "value1"
+2) "value2"
+```
+**计数器**
+```cpp
+# 设置 key-value 类型的值
+> SET number 0
+OK
+# 将 key 中储存的数字值增一
+> INCR number
+(integer) 1
+# 将key中存储的数字值加 10
+> INCRBY number 10
+(integer) 11
+# 将 key 中储存的数字值减一
+> DECR number
+(integer) 10
+# 将key中存储的数字值减 10
+> DECRBY number 10
+(integer) 0
+```
+**过期**
+```cpp
+# 设置 key 在 60 秒后过期（该方法是针对已经存在的key设置过期时间）
+> EXPIRE name  60 
+(integer) 1
+# 查看数据还有多久过期
+> TTL name 
+(integer) 51
+
+#设置 key-value 类型的值，并设置该key的过期时间为 60 秒
+> SET key  value EX 60
+OK
+> SETEX key  60 value
+OK
+```
+**不存在就插入**
+```cpp
+# 不存在就插入（not exists）
+>SETNX key value
+(integer) 1
+```
+
 
 ---
