@@ -8,6 +8,9 @@ tags: []
 ---
 #### Content
 ##### String
+![[Redis.String|seamless]]
+
+##### List
 
 
 ---
