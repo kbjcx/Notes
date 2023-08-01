@@ -19,5 +19,6 @@
   "livePreview": false,
   "showInlineTitle": true,
   "autoPairMarkdown": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheck": false
 }
