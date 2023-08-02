@@ -1,7 +1,6 @@
 /* Font for the markdown source panel */
 div.markdown-source-view {
     font-family: var(--font-family-editor);
-    line
     font-weight: 500;
 }
 
