@@ -20,4 +20,7 @@ date: 2023-07-21 22:27
 # Zset
 ![[Redis.Zset|seamless]]
 
+# BitMap
+
+
 ---
