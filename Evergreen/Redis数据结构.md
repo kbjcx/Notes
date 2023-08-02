@@ -18,6 +18,6 @@ date: 2023-07-21 22:27
 ![[Redis.Set|seamless]]
 
 # Zset
-
+![[Redis.Zset|seamless]]
 
 ---
