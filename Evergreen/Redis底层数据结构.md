@@ -22,7 +22,10 @@ Redis 中的每个对象都由 `redisObject` 结构表示，如下图：
 - **ptr**，指向底层数据结构的指针
 
 # 底层数据结构
-## SDS
+## 简单动态字符串 | SDS
+![[Redis.SDS|seamless]]
+
+## 链表 | List
 
 
 ---

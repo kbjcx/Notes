@@ -22,7 +22,7 @@ Redis 是用 C 语言实现的，但是它没有直接使用 C 语言的 char* �
 Redis 一共设计了 5 种类型，分别是 sdshdr5、sdshdr8、sdshdr16、sdshdr32 和 sdshdr64
 这 5 种类型的主要区别就在于，它们数据结构中的 **len** 和 **alloc** 成员变量的数据类型不同
 ```cpp
-// 关闭
+// 关闭字节对齐，尽量减少内存占用
 struct __attribute__ ((__packed__)) sdshdr16 {
     uint16_t len;
     uint16_t alloc; 
