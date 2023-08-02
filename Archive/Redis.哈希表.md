@@ -1,5 +1,5 @@
 ---
-aliases: [哈希表]
+aliases: [哈希表, hash]
 area: redis
 project: 
 date: 2023-08-02 10:16

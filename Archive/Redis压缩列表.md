@@ -1,5 +1,5 @@
 ---
-aliases: [压缩列表]
+aliases: [压缩列表, ziplist]
 area: redis
 project: 
 date: 2023-08-01 15:16
