@@ -12,6 +12,11 @@ Redis HyperLogLog 是 Redis 2.8.9 版本新增的数据类型，是一种用于�
 > [!tip]  HyperLogLog 提供**不精确的去重计数**
 > 在输入元素的数量或者体积非常非常大时，计算基数所需的内存空间总是固定的、并且是很小的
 
+#### 应用场景
+##### 百万级网页 UV 计数
+Redis HyperLogLog 优势在于只需要花费 12 KB 内存，就可以计算接近 2^64 个元素的基数，和元素越多就越耗费内存的 Set 和 Hash 类型相比，HyperLogLog 就非常节省空间
+
+
 #### 常见命令
 ```py
 # 添加指定元素到 HyperLogLog 中
