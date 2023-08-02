@@ -108,5 +108,7 @@
   "anuppuccin-theme-settings@@anp-h1-color-custom": "anp-h1-rosewater",
   "yaozhuwa@css@@outline-tweak": false,
   "CodeMirror Options@@cm5-minimal-embeds": true,
-  "yaozhuwa@css@@code-line-number": true
+  "yaozhuwa@css@@code-line-number": true,
+  "anuppuccin-theme-settings@@anp-code-bg-color@@light": "#F5F5F5",
+  "anuppuccin-theme-settings@@anp-code-text-color@@light": "#558EDA"
 }
