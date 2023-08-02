@@ -35,7 +35,13 @@ BITCOUNT uid:sign:100:202206
 > GETBIT login_status 10086 
 ```
 ##### 连续签到用户总数
-
+在进行与操作后再对结果进行统计
+```py
+# 与操作
+BITOP AND destmap bitmap:01 bitmap:02 bitmap:03
+# 统计 bit 位 =  1 的个数
+BITCOUNT destmap
+```
 
 #### 常用命令
 ```py

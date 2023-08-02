@@ -21,6 +21,8 @@ date: 2023-07-21 22:27
 ![[Redis.Zset|seamless]]
 
 # BitMap
+![[Redis.BitMap|seamless]]
 
+# HyperLogLog
 
 ---
