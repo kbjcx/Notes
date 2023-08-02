@@ -1,0 +1,15 @@
+.cm-s-obsidian span.cm-inline-code {
+    padding: 4px 6px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #F2F2F2;
+    border-radius: 4px
+}
+
+.markdown-rendered code {
+    padding: 4px 6px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #F2F2F2;
+    border-radius: 4px
+}

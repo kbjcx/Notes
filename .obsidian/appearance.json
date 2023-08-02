@@ -14,7 +14,8 @@
     "块引用",
     "两端对齐",
     "大纲",
-    "codeblock"
+    "codeblock",
+    "inlinecode"
   ],
   "baseFontSize": 17
 }
