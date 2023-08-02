@@ -3,7 +3,7 @@ aliases: [quicklist]
 area: redis
 project: 
 date: 2023-08-01 15:16
-tags: [TODO]
+tags: []
 ---
 ---
 #### Content
@@ -49,7 +49,13 @@ typedef struct quicklistNode {
 } quicklistNode;
 ```
 可以看到，**quicklistNode** 结构体里包含了前一个节点和下一个节点指针，这样每个 **quicklistNode** 形成了一个双向链表。但是链表节点的元素不再是单纯保存元素值，而是保存了一个压缩列表，所以 **quicklistNode** 结构体里有个指向压缩列表的指针 `*zl`
+![[Pasted image 20230802214209.png]]
 
+> [!faq] quicklist 是怎么插入元素的呢？
+> 在向 quicklist 添加一个元素的时候，不会像普通的链表那样，直接新建一个链表节点。而是会检查插入位置的压缩列表是否能容纳该元素，如果能容纳就直接保存到 **quicklistNode** 结构里的压缩列表，如果不能容纳，才会新建一个新的 **quicklistNode** 结构
+
+#### 特点
+- quicklist 会控制 **quicklistNode** 结构里的压缩列表的大小或者元素个数，来减小潜在的连锁更新的风险，但是这并没有完全解决连锁更新的问题
 
 
 
