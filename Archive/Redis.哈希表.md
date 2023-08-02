@@ -20,7 +20,7 @@ typedef struct dictht {
     unsigned long used;
 } dictht;
 ```
-可以看到，哈希表是一个数组（`dictEntry **table`），数组的每个元素是一个指向「哈希表节点（dictEntry）」的指针
+可以看到，哈希表是一个数组（`dictEntry **table`），数组的每个元素是一个指向「哈希表节点（`dictEntry`）」的指针
 
 
 

@@ -5,8 +5,8 @@
   "nativeMenus": true,
   "cssTheme": "AnuPpuccin",
   "interfaceFontFamily": "",
-  "textFontFamily": "",
-  "monospaceFontFamily": "Fira Code Retina",
+  "textFontFamily": "Microsoft YaHei,Cascadia Code",
+  "monospaceFontFamily": "Cascadia Code",
   "showViewHeader": true,
   "enabledCssSnippets": [
     "yaozhuw",

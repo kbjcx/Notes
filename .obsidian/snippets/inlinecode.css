@@ -1,15 +1,19 @@
 .cm-s-obsidian span.cm-inline-code {
-    padding: 4px 6px;
+    padding: 6px 2px;
     font-size: 90%;
-    color: #c7254e;
+    font-family: 'Consolas';
+    color: #5A91DA;
     background-color: #F2F2F2;
-    border-radius: 4px
+    border-radius: 8px;
+    font-weight: bold;
 }
 
 .markdown-rendered code {
-    padding: 4px 6px;
+    padding: 4px 8px;
     font-size: 90%;
-    color: #c7254e;
+    color: #5A91DA;
+    font-family: 'Consolas';
     background-color: #F2F2F2;
-    border-radius: 4px
+    border-radius: 8px;
+    font-weight: bold;
 }
