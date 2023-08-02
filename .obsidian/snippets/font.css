@@ -1,0 +1,31 @@
+/* Font for the markdown source panel */
+div.markdown-source-view {
+    font-family: var(--font-family-editor);
+    font-weight: 500;
+}
+
+/* Font for the markdown preview panel */
+div.markdown-preview-view {
+    font-family: var(--font-family-preview);
+    font-weight: 500;
+}
+
+/* Editor font: make thicker */
+.cm-s-obsidian .CodeMirror-line * {
+    -webkit-font-smoothing: auto;
+}
+
+.cm-s-obsidian .cm-header {
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Preview font: make thinner */
+/* this does NOT affect the sidepanels like File Explorer, Search */
+.markdown-preview-view {
+    -webkit-font-smoothing: antialiased !important;
+}
+
+/* this DOES affect the sidepanels like File Explorer, Search too */
+html {
+    -webkit-font-smoothing: antialiased !important;
+}

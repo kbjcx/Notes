@@ -15,7 +15,8 @@
     "两端对齐",
     "大纲",
     "codeblock",
-    "inlinecode"
+    "inlinecode",
+    "font"
   ],
   "baseFontSize": 16
 }
