@@ -22,6 +22,13 @@ Set 类型的底层数据结构是由[[Redis.哈希表|哈希表]] 或[[整数�
 
 > [!attention] Set 的差集、并集和交集的计算复杂度较高，在数据量较大的情况下，如果直接执行这些计算，会导致 Redis 实例阻塞
 
+```cpp
+#include <cstring>
+int main() {
+    return 0;
+}
+```
+
 ##### 点赞
 Set 类型可以保证一个用户只能点一个赞，这里举例子一个场景，key 是文章 id，value 是用户 id
 `uid: 1 、uid: 2、uid: 3` 三个用户分别对 `article: 1` 文章点赞

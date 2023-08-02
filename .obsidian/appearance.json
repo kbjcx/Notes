@@ -12,7 +12,9 @@
     "yaozhuw",
     "extend",
     "块引用",
-    "两端对齐"
+    "两端对齐",
+    "大纲",
+    "codeblock"
   ],
   "baseFontSize": 17
 }
