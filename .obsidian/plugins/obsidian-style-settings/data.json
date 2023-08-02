@@ -100,7 +100,7 @@
   "yaozhuwa@css@@clutter-free-headings": false,
   "anuppuccin-theme-settings@@h1-size": 1.75,
   "yaozhuwa@css@@blank-line-tweak": false,
-  "yaozhuwa@css@@center-image": false,
+  "yaozhuwa@css@@center-image": true,
   "yaozhuwa@css@@seamless-embed": true,
   "anuppuccin-theme-settings@@callout-radius": 10,
   "anuppuccin-theme-settings@@callout-title-opacity": 0.15,
