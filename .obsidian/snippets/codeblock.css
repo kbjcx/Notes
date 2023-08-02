@@ -1,8 +1,11 @@
 /* 自定义阅读模式中代码块的样式 */
 .markdown-preview-view pre {
-    background-color: #282C34;
-    color: white;
+    /* background-image: */
+    background-color: #2E3440;
+    color: #abb2bf;
     padding: 18px;
     line-height: 1.6;
     border-radius: 15px;
+    box-shadow: 5px 9px 8px rgba(0, 0, 0, 0.2);
+    /* 添加轻微阴影效果 */
 }
