@@ -22,38 +22,31 @@ Set 类型的底层数据结构是由[[Redis.哈希表|哈希表]] 或[[整数�
 
 > [!attention] Set 的差集、并集和交集的计算复杂度较高，在数据量较大的情况下，如果直接执行这些计算，会导致 Redis 实例阻塞
 
-```cpp
-#include <cstring>
-int main() {
-    return 0;
-}
-```
-
 ##### 点赞
 Set 类型可以保证一个用户只能点一个赞，这里举例子一个场景，key 是文章 id，value 是用户 id
 `uid: 1 、uid: 2、uid: 3` 三个用户分别对 `article: 1` 文章点赞
-```sh
+```py
 > SADD article:1 uid:1 uid:2 uid:3
 (integer) 3
 ```
 `uid: 1` 取消了对 ` article: 1` 文章点赞
-```sh
+```py
 > SREM article:1 uid:1
 (integer) 1
 ```
 获取 article: 1 文章所有点赞用户
-```sh
+```py
 > SMEMBERS article:1
 1) "uid:3"
 2) "uid:2"
 ```
 获取 article: 1 文章的点赞用户数量
-```sh
+```py
 > SCARD article:1
 (integer) 2
 ```
 判断用户 uid: 1 是否对文章 article: 1 点赞
-```sh
+```py
 > SISMEMBER article:1 uid:1
 (integer) 0  # 返回0说明没点赞，返回1则说明点赞了
 ```
@@ -61,7 +54,7 @@ Set 类型可以保证一个用户只能点一个赞，这里举例子一个场�
 ##### 共同关注
 Set 类型支持交集运算，所以可以用来计算共同关注的好友、公众号等
 `uid: 1` 用户关注公众号 id 为 5、6、7、8、9，`uid: 2` 用户关注公众号 id 为 7、8、9、10、11
-```sh
+```py
 # uid:1 用户关注公众号 id 为 5、6、7、8、9
 > SADD uid:1 5 6 7 8 9
 (integer) 5
@@ -70,7 +63,7 @@ Set 类型支持交集运算，所以可以用来计算共同关注的好友、�
 (integer) 5
 ```
 `uid: 1` 和 `uid: 2` 共同关注的公众号
-```sh
+```py
 # 获取共同关注
 > SINTER uid:1 uid:2
 1) "7"
@@ -78,13 +71,13 @@ Set 类型支持交集运算，所以可以用来计算共同关注的好友、�
 3) "9"
 ```
 给 `uid: 2` 推荐 `uid: 1` 关注的公众号
-```sh
+```py
 > SDIFF uid:1 uid:2
 1) "5"
 2) "6"
 ```
 验证某个公众号是否同时被 `uid: 1` 或 `uid: 2` 关注
-```sh
+```py
 > SISMEMBER uid:1 5
 (integer) 1 # 返回0，说明关注了
 > SISMEMBER uid:2 5
@@ -94,12 +87,12 @@ Set 类型支持交集运算，所以可以用来计算共同关注的好友、�
 ##### 抽奖活动
 存储某活动中中奖的用户名，Set 类型因为有去重功能，可以保证同一个用户不会中奖两次
 **key** 为抽奖活动名，**value** 为员工名称，把所有员工名称放入抽奖箱 
-```sh
+```py
 > SADD lucky Tom Jerry John Sean Marry Lindy Sary Mark
 (integer) 8
 ```
 如果允许重复中奖，可以使用 **SRANDMEMBER** 命令
-```sh
+```py
 # 抽取 1 个一等奖：
 > SRANDMEMBER lucky 1
 1) "Tom"
@@ -114,7 +107,7 @@ Set 类型支持交集运算，所以可以用来计算共同关注的好友、�
 3) "Jerry"
 ```
 如果不允许重复中奖，可以使用 **SPOP** 命令
-```sh
+```py
 # 抽取一等奖1个
 > SPOP lucky 1
 1) "Sary"
@@ -130,7 +123,7 @@ Set 类型支持交集运算，所以可以用来计算共同关注的好友、�
 ```
 
 #### 常用命令
-```sh
+```py
 # 往集合key中存入元素，元素存在则忽略，若key不存在则新建
 SADD key member [member ...]
 # 从集合key中删除元素
@@ -149,7 +142,7 @@ SRANDMEMBER key [count]
 SPOP key [count]
 ```
 **Set 运算操作**
-```sh
+```py
 # 交集运算
 SINTER key [key ...]
 # 将交集结果存入新集合destination中

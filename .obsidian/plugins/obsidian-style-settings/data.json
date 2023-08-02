@@ -110,5 +110,6 @@
   "CodeMirror Options@@cm5-minimal-embeds": true,
   "yaozhuwa@css@@code-line-number": true,
   "anuppuccin-theme-settings@@anp-code-bg-color@@light": "#F5F5F5",
-  "anuppuccin-theme-settings@@anp-code-text-color@@light": "#558EDA"
+  "anuppuccin-theme-settings@@anp-code-text-color@@light": "#558EDA",
+  "CodeMirror Options@@cm-theme-selection": "cm-theme-solarized-light"
 }

@@ -15,6 +15,9 @@ date: 2023-07-21 22:27
 ![[Redis.Hash|seamless]]
 
 # Set
+![[Redis.Set|seamless]]
+
+# Zset
 
 
 ---
