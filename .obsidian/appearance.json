@@ -1,7 +1,7 @@
 {
   "accentColor": "",
   "theme": "moonstone",
-  "translucency": false,
+  "translucency": true,
   "nativeMenus": true,
   "cssTheme": "AnuPpuccin",
   "interfaceFontFamily": "",
