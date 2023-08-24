@@ -110,5 +110,7 @@
   "yaozhuwa@css@@code-line-number": true,
   "anuppuccin-theme-settings@@anp-code-bg-color@@light": "#F5F5F5",
   "anuppuccin-theme-settings@@anp-code-text-color@@light": "#558EDA",
-  "CodeMirror Options@@cm-theme-selection": "cm-theme-solarized-light"
+  "CodeMirror Options@@cm-theme-selection": "cm-theme-solarized-light",
+  "anuppuccin-theme-settings@@anp-custom-checkboxes": true,
+  "anuppuccin-theme-settings@@anp-speech-bubble": true
 }
