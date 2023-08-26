@@ -30,8 +30,8 @@
   ],
   "userSelRepRuleValue": [
     {
-      "left": "~~",
-      "right": "~~"
+      "left": "<u>",
+      "right": "</u>"
     },
     {
       "left": "#",
