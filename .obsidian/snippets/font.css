@@ -8,7 +8,6 @@ div.markdown-source-view {
 div.markdown-preview-view {
     font-family: var(--font-family-preview);
     font-weight: 500;
-    line-height: 80%;
 }
 
 /* Editor font: make thicker */
