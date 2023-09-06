@@ -60,7 +60,8 @@ SET 命令有个 NX 参数可以实现「key 不存在才插入」，可以用�
 ```lua
 // 释放锁时，先比较 unique_value 是否相等，避免锁的误释放
 if redis.call("get",KEYS[1]) == ARGV[1] then
-    // 如果此时key
+    // 如果此时key过期，那么其他线程就会获取到分布式锁，那么执行到下一步的时候就
+    会将其他线程的锁删除，导致多个线程同时操作临界资源
     return redis.call("del",KEYS[1])
 else
     return 0
