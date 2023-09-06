@@ -57,6 +57,16 @@ SET 命令有个 NX 参数可以实现「key 不存在才插入」，可以用�
 解锁的过程就是将 lock_key 键删除，但不能乱删，要保证执行操作的客户端就是加锁的客户端。所以，解锁的时候，我们要先判断锁的 unique_value 是否为加锁客户端，是的话，才将 lock_key 键删除
 > [!attention] 解锁分为两个操作，需要通过 lua 脚本来保证操作的原子性
 
+```lua
+// 释放锁时，先比较 unique_value 是否相等，避免锁的误释放
+if redis.call("get",KEYS[1]) == ARGV[1] then
+    // 如果此时key
+    return redis.call("del",KEYS[1])
+else
+    return 0
+end
+```
+
 ##### 共享 Session 信息
 通常我们在开发后台管理系统时，会使用 Session 来保存用户的会话 (登录)状态，这些 Session 信息会被保存在服务器端，但这只适用于单系统应用，如果是分布式系统此模式将不再适用
 因此，我们需要借助 Redis 对这些 Session 信息进行统一的存储和管理，这样无论请求发送到那台服务器，服务器都会去同一个 Redis 获取相关的 Session 信息，这样就解决了分布式系统下 Session 存储的问题
