@@ -1,0 +1,22 @@
+{
+  "accentColor": "",
+  "theme": "moonstone",
+  "translucency": true,
+  "nativeMenus": false,
+  "cssTheme": "AnuPpuccin",
+  "interfaceFontFamily": "Microsoft YaHei",
+  "textFontFamily": "Times New Roman,Microsoft YaHei",
+  "monospaceFontFamily": "FiraCode Nerd Font",
+  "showViewHeader": false,
+  "enabledCssSnippets": [
+    "yaozhuw",
+    "extend",
+    "块引用",
+    "两端对齐",
+    "大纲",
+    "inlinecode",
+    "font",
+    "codeblock"
+  ],
+  "baseFontSize": 16
+}
