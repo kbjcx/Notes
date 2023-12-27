@@ -7,6 +7,6 @@
 
 <p style="text-indent:2em">Tian 等人[29]针对 LiFePO4电池在 SOC 中间范围内的平坦开路电压特性，提出了一种基于深度神经网络（Deep Neural Network，DNN）的 SOC 估计方法。[赵赛超](https://www.sciencedirect.com/science/article/pii/S2352152X22009082)将广义学习系统（BLS）算法与长短期记忆神经网络（LSTM NN）相结合，建立了融合神经网络模型，对锂离子电池容量和 RUL 进行了出色的预测。Zhao 等人[63]为了减少计算资源，将宽度学习系统（Broad Learning System，BLS）和长短期记忆网络（LSTM）相结合，开发了一种融合神经网络模型。Ma 等人[61]首先利用皮尔逊相关系数选择了与电池容量相关性更高的特征，然后提出了一种利用差分进化灰狼优化器进行超参数选择的改进 LSTM 模型。
 
-<p style="text-indent:2em">综上所述，锂离子电池的 SOC 与 SOH 估计方法已经比较成熟，但大多是对 SOC 与 SOH 单独进行估计，而忽略了 SOC 与 SOH 之间的联系。因此将 SOC 与 SOH 进行联合估计的研究是必要的。张欣等提出了一种基于 GWO-BP 神经网络的 SOH-SOC 联合估计模型，利用 SOH 来修正 Ah 积分方法。但是安时积分的准确度很大程度上受初始 SOC 的准确性以及累积误差的影响。[蒋波](https://www.sciencedirect.com/science/article/pii/S0306261919312930)等提出了一种基于自适应变量多时间尺度框架的电池 SOC 和容量联合估计方法，基于自适应扩展卡尔曼滤波器自适应更新噪声协方差来提高估计的准确性。[胡盼盼](https://www.mdpi.com/1996-1073/16/14/5313)等提出了一种基于非线性状态空间重构(NSSR)和长短期记忆(LSTM)神经网络的 SOC 和 SOH 联合估计方法。目前对 SOC 与 SOH 联合估计的研究还比较少，并且大多为基于模型的方法，
+综上所述，锂离子电池的 SOC 与 SOH 估计方法已经比较成熟，但大多是对 SOC 与 SOH 单独进行估计，而忽略了 SOC 与 SOH 之间的联系。因此将 SOC 与 SOH 进行联合估计的研究是必要的。张欣等提出了一种基于 GWO-BP 神经网络的 SOH-SOC 联合估计模型，利用 SOH 来修正 Ah 积分方法。但是安时积分的准确度很大程度上受初始 SOC 的准确性以及累积误差的影响。[蒋波](https://www.sciencedirect.com/science/article/pii/S0306261919312930)等提出了一种基于自适应变量多时间尺度框架的电池 SOC 和容量联合估计方法，基于自适应扩展卡尔曼滤波器自适应更新噪声协方差来提高估计的准确性。[胡盼盼](https://www.mdpi.com/1996-1073/16/14/5313)等提出了一种基于非线性状态空间重构(NSSR)和长短期记忆(LSTM)神经网络的 SOC 和 SOH 联合估计方法。目前对 SOC 与 SOH 联合估计的研究还比较少，并且大多为基于模型的方法，
 
 # Method
