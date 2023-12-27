@@ -9,6 +9,6 @@
 
 &emsp;&emsp;综上所述，锂离子电池的 SOC 与 SOH 估计方法已经比较成熟，但大多是对 SOC 与 SOH 单独进行估计，而忽略了 SOC 与 SOH 之间的联系。因此将 SOC 与 SOH 进行联合估计的研究是必要的。[张欣](https://webofscience.clarivate.cn/wos/alldb/full-record/WOS:000909216300001)等提出了一种基于 GWO-BP 神经网络的 SOH-SOC 联合估计模型，利用 SOH 来修正 Ah 积分方法。但是安时积分的准确度很大程度上受初始 SOC 的准确性以及累积误差的影响。[蒋波](https://www.sciencedirect.com/science/article/pii/S0306261919312930)等提出了一种基于自适应变量多时间尺度框架的电池 SOC 和容量联合估计方法，基于自适应扩展卡尔曼滤波器自适应更新噪声协方差来提高估计的准确性。但是基于模型的方法泛化能力较差。[胡盼盼](https://www.mdpi.com/1996-1073/16/14/5313)等提出了一种基于非线性状态空间重构(NSSR)和长短期记忆(LSTM)神经网络的 SOC 和 SOH 联合估计方法。[安佳坤](https://www.mdpi.com/1996-1073/16/10/4243)等建立了一种利用 PSO 算法优化 XGBoost 算法的 SOC 与 SOH 联合预测模型。上述研究往往将 SOC 与 SOH 同时作为预测模型的输出，但是 SOH 与 SOC 的尺度是不一样的。SOH 需要的是多个充放电循环的特征，且预测频率低。而 SOC 需要的是单个充放电循环内的特征，且预测频率高。将 SOC 与 SOH 放到统一尺度考虑不仅会因特征量的减少降低 SOH 的预测精度，也会因为频繁地预测带来较大的计算负荷。
 
-&emsp;&emsp;因此，本文提出了一种两阶段的 SOH 与 SOC 联合估计方法。采用 Encoder-Decoder 模型结合扩张卷积，基于数据驱动的方法进行 SOC 与 SOH 的联合估计。第一阶段是基于多循环数据的 SOH 估计，第二阶段将 SOH 引入模型进行基于单循环数据的 SOC 估计。并且模型基于 Encoder-Decoder 结构能够根据 SOC 与 SOH 的不同需求实现灵活的
+&emsp;&emsp;因此，本文提出了一种两阶段的 SOH 与 SOC 联合估计方法。采用 Encoder-Decoder 模型结合扩张卷积，基于数据驱动的方法进行 SOC 与 SOH 的联合估计。第一阶段是基于多循环数据的 SOH 估计，第二阶段将 SOH 引入模型进行基于单循环数据的 SOC 估计。并且模型基于 Encoder-Decoder 结构能够根据 SOC 与 SOH 的不同需求实现灵活的编码和解码调整。最后根据 Oxford 电池老化数据集，以电压、电流、表面温度为特征对 SOC 与 SOH 进行联合，对比验证了本文所提方法的有效性和准确性。
 
 # Method
