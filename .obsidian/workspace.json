@@ -18,8 +18,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "79a3d47d4799688b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InputBox/2023-12-28.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/SOH and SOC.md",
+                "file": "InputBox/2023-12-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/SOH and SOC.md",
+                "file": "InputBox/2023-12-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/SOH and SOC.md"
+                "file": "InputBox/2023-12-28.md"
               }
             }
           },
@@ -135,7 +148,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -159,8 +174,9 @@
       "homepage:Open homepage": true
     }
   },
-  "active": "511fe82d8501ece0",
+  "active": "79a3d47d4799688b",
   "lastOpenFiles": [
+    "InputBox/2023-12-28.md",
     "InputBox/2023-12-27.md",
     "InputBox/2023-12-26.md",
     "InputBox/2023-12-25.md",
@@ -193,7 +209,6 @@
     "Archive/隔离级别.md",
     "Archive/消息传递语义.md",
     "Archive/一致性模型.md",
-    "Archive/PACELC定理.md",
     "Asserts/Pasted image 20230830205255.png",
     "Asserts/Pasted image 20230825204311.png",
     "Asserts/Pasted image 20230807094504.png",
