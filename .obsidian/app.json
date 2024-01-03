@@ -17,7 +17,7 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "Archive",
   "livePreview": false,
-  "showInlineTitle": true,
+  "showInlineTitle": false,
   "autoPairMarkdown": false,
   "alwaysUpdateLinks": true,
   "spellcheck": false,

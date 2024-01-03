@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InputBox/2024-01-03.md",
+                "file": "InputBox/2023-12-25.md",
                 "mode": "source",
                 "source": true
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InputBox/2024-01-03.md",
+                "file": "InputBox/2023-12-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InputBox/2024-01-03.md",
+                "file": "InputBox/2023-12-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InputBox/2024-01-03.md"
+                "file": "InputBox/2023-12-25.md"
               }
             }
           },
@@ -146,7 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,15 +164,15 @@
   "active": "67d1782f19174a02",
   "lastOpenFiles": [
     "InputBox/2024-01-03.md",
-    "Home.md",
-    "Projects/SOH and SOC.md",
-    "InputBox/2023-12-23.md",
-    "InputBox/2023-12-24.md",
-    "InputBox/2023-12-25.md",
-    "InputBox/2023-12-26.md",
-    "InputBox/2023-12-27.md",
-    "InputBox/2023-12-28.md",
     "InputBox/2023-12-29.md",
+    "InputBox/2023-12-27.md",
+    "InputBox/2023-12-25.md",
+    "InputBox/2023-12-28.md",
+    "InputBox/2023-12-23.md",
+    "Projects/SOH and SOC.md",
+    "InputBox/2023-12-24.md",
+    "Home.md",
+    "InputBox/2023-12-26.md",
     "Projects",
     "InputBox",
     "使用 C++11 让程序更简洁、更现代.md",

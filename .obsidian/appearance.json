@@ -1,5 +1,5 @@
 {
-  "accentColor": "#81c1b4",
+  "accentColor": "#308876",
   "theme": "moonstone",
   "translucency": true,
   "nativeMenus": false,
@@ -7,16 +7,16 @@
   "interfaceFontFamily": "Microsoft YaHei",
   "textFontFamily": "Times New Roman,Microsoft YaHei",
   "monospaceFontFamily": "FiraCode Nerd Font",
-  "showViewHeader": false,
+  "showViewHeader": true,
   "enabledCssSnippets": [
     "块引用",
-    "两端对齐",
-    "大纲",
-    "font",
-    "yaozhuw",
-    "inlinecode",
+    "codeblock",
     "extend",
-    "codeblock"
+    "font",
+    "inlinecode",
+    "yaozhuw",
+    "大纲",
+    "两端对齐"
   ],
   "baseFontSize": 16
 }

@@ -4,7 +4,6 @@
   "oz-clear-unused-images",
   "obsidian-hider",
   "hotkeysplus-obsidian",
-  "obsidian-style-settings",
   "easy-typing-obsidian",
   "quickadd",
   "dataview",
@@ -12,5 +11,6 @@
   "obsidian-admonition",
   "homepage",
   "obsidian-code-block-enhancer",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-style-settings"
 ]
