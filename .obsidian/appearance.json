@@ -1,9 +1,9 @@
 {
-  "accentColor": "",
-  "theme": "obsidian",
+  "accentColor": "#81c1b4",
+  "theme": "moonstone",
   "translucency": true,
   "nativeMenus": false,
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "AnuPpuccin",
   "interfaceFontFamily": "Microsoft YaHei",
   "textFontFamily": "Times New Roman,Microsoft YaHei",
   "monospaceFontFamily": "FiraCode Nerd Font",
@@ -12,7 +12,11 @@
     "块引用",
     "两端对齐",
     "大纲",
-    "font"
+    "font",
+    "yaozhuw",
+    "inlinecode",
+    "extend",
+    "codeblock"
   ],
   "baseFontSize": 16
 }
