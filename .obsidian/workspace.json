@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "InputBox/2024-01-03.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "InputBox/2024-01-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "InputBox/2024-01-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "InputBox/2024-01-03.md"
               }
             }
           },
@@ -161,7 +161,7 @@
       "homepage:Open homepage": true
     }
   },
-  "active": "dea296dd976d3c67",
+  "active": "511fe82d8501ece0",
   "lastOpenFiles": [
     "InputBox/2023-12-23.md",
     "InputBox/2023-12-24.md",
