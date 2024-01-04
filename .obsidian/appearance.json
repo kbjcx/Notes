@@ -9,7 +9,14 @@
   "monospaceFontFamily": "FiraCode Nerd Font",
   "showViewHeader": false,
   "enabledCssSnippets": [
-    "extend"
+    "extend",
+    "大纲",
+    "块引用",
+    "两端对齐",
+    "codeblock",
+    "font",
+    "inlinecode",
+    "yaozhuw"
   ],
   "baseFontSize": 16
 }
