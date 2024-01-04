@@ -8,12 +8,12 @@
   "ExcludeFiles": "",
   "ChineseEnglishSpace": true,
   "ChineseNumberSpace": true,
-  "EnglishNumberSpace": false,
+  "EnglishNumberSpace": true,
   "ChineseNoSpace": true,
   "PunctuationSpace": false,
   "AutoCapital": false,
   "AutoCapitalMode": "typing",
-  "PunctuationSpaceMode": "global",
+  "PunctuationSpaceMode": "typing",
   "InlineCodeSpaceMode": 1,
   "InlineFormulaSpaceMode": 1,
   "InlineLinkSpaceMode": 1,
@@ -23,39 +23,21 @@
   "debug": false,
   "userSelRepRuleTrigger": [
     "-",
-    "#",
-    "]",
-    "`"
+    "#"
   ],
   "userSelRepRuleValue": [
     {
-      "left": "<u>",
-      "right": "</u>"
+      "left": "~~",
+      "right": "~~"
     },
     {
       "left": "#",
       "right": " "
-    },
-    {
-      "left": "「",
-      "right": "」"
-    },
-    {
-      "left": "`",
-      "right": "`"
     }
   ],
   "userDeleteRulesStrList": [
     [
       "demo|",
-      "|"
-    ],
-    [
-      "[]|",
-      "|"
-    ],
-    [
-      "()|",
       "|"
     ]
   ],
@@ -63,10 +45,6 @@
     [
       ":)|",
       "😀|"
-    ],
-    [
-      "-[]|",
-      "「|」"
     ]
   ],
   "userSelRuleSettingsOpen": true,
@@ -74,5 +52,6 @@
   "userCvtRuleSettingsOpen": true,
   "EnterTwice": false,
   "TryFixChineseIM": false,
-  "PuncRectify": false
+  "PuncRectify": false,
+  "FixMacOSContextMenu": false
 }

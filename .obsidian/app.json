@@ -1,29 +1,14 @@
 {
-  "autoConvertHtml": false,
-  "showLineNumber": false,
-  "showFrontmatter": true,
-  "readableLineLength": true,
-  "attachmentFolderPath": "Asserts",
-  "tabSize": 4,
-  "useTab": false,
-  "pdfExportSettings": {
-    "includeName": true,
-    "pageSize": "A4",
-    "landscape": false,
-    "margin": "0",
-    "downscalePercent": 100
-  },
-  "rightToLeft": false,
-  "newFileLocation": "folder",
-  "newFileFolderPath": "Archive",
   "livePreview": false,
-  "showInlineTitle": false,
-  "autoPairMarkdown": false,
-  "alwaysUpdateLinks": true,
-  "spellcheck": false,
   "strictLineBreaks": true,
-  "showIndentGuide": false,
+  "spellcheck": false,
+  "autoPairMarkdown": false,
   "smartIndentList": false,
+  "useTab": false,
+  "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
-  "userIgnoreFilters": null
+  "attachmentFolderPath": "Asserts",
+  "showInlineTitle": true,
+  "showIndentGuide": false,
+  "autoPairBrackets": false
 }

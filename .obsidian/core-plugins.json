@@ -6,14 +6,14 @@
   "backlink",
   "outgoing-link",
   "tag-pane",
-  "properties",
   "page-preview",
   "daily-notes",
+  "templates",
   "command-palette",
   "slash-command",
   "editor-status",
   "bookmarks",
-  "markdown-importer",
   "outline",
-  "slides"
+  "word-count",
+  "file-recovery"
 ]

@@ -1,15 +1,12 @@
 [
-  "table-editor-obsidian",
-  "obsidian-auto-link-title",
+  "obsidian-style-settings",
   "oz-clear-unused-images",
-  "obsidian-hider",
-  "hotkeysplus-obsidian",
-  "easy-typing-obsidian",
-  "quickadd",
   "dataview",
-  "smart-random-note",
-  "obsidian-admonition",
-  "homepage",
+  "easy-typing-obsidian",
+  "cm-editor-syntax-highlight-obsidian",
   "obsidian-git",
-  "obsidian-style-settings"
+  "obsidian-hider",
+  "quickadd",
+  "tag-wrangler",
+  "obsidian-admonition"
 ]
