@@ -76,35 +76,19 @@
               }
             }
           }
-        ],
-        "currentTab": 1
-      }
-    ],
-    "direction": "horizontal",
-    "width": 283
-  },
-  "right": {
-    "id": "d485d14fd63c5d40",
-    "type": "split",
-    "children": [
+        ]
+      },
       {
-        "id": "e088db297983329b",
+        "id": "320ae5e9a4c88a46",
         "type": "tabs",
         "children": [
           {
-            "id": "2eda53f3ad05a881",
+            "id": "ee08e5bf1313c43f",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "outline",
               "state": {
-                "file": "InputBox/2024-01-04.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "file": "InputBox/2024-01-04.md"
               }
             }
           },
@@ -121,17 +105,38 @@
             }
           },
           {
-            "id": "ee08e5bf1313c43f",
+            "id": "2eda53f3ad05a881",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "backlink",
               "state": {
-                "file": "InputBox/2024-01-04.md"
+                "file": "InputBox/2024-01-04.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
-          },
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 283
+  },
+  "right": {
+    "id": "d485d14fd63c5d40",
+    "type": "split",
+    "children": [
+      {
+        "id": "1474b1b1c2fa8f66",
+        "type": "tabs",
+        "children": [
           {
-            "id": "564ec03e37dcfb24",
+            "id": "9fffd80a53c97fe2",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -142,12 +147,12 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,8 +169,8 @@
   },
   "active": "67d1782f19174a02",
   "lastOpenFiles": [
-    "InputBox/2024-01-03.md",
     "InputBox/2024-01-04.md",
+    "InputBox/2024-01-03.md",
     "InputBox/2023-12-29.md",
     "InputBox/2023-12-27.md",
     "InputBox/2023-12-25.md",

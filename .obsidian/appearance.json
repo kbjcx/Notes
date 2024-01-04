@@ -7,16 +7,9 @@
   "interfaceFontFamily": "Microsoft YaHei",
   "textFontFamily": "Times New Roman,Microsoft YaHei",
   "monospaceFontFamily": "FiraCode Nerd Font",
-  "showViewHeader": true,
+  "showViewHeader": false,
   "enabledCssSnippets": [
-    "块引用",
-    "extend",
-    "font",
-    "inlinecode",
-    "yaozhuw",
-    "大纲",
-    "两端对齐",
-    "codeblock"
+    "extend"
   ],
   "baseFontSize": 16
 }
