@@ -10,13 +10,13 @@
   "showViewHeader": true,
   "enabledCssSnippets": [
     "块引用",
-    "codeblock",
     "extend",
     "font",
     "inlinecode",
     "yaozhuw",
     "大纲",
-    "两端对齐"
+    "两端对齐",
+    "codeblock"
   ],
   "baseFontSize": 16
 }

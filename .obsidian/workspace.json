@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InputBox/2023-12-25.md",
+                "file": "InputBox/2024-01-04.md",
                 "mode": "source",
                 "source": true
               }
@@ -76,7 +76,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InputBox/2023-12-25.md",
+                "file": "InputBox/2024-01-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InputBox/2023-12-25.md",
+                "file": "InputBox/2024-01-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InputBox/2023-12-25.md"
+                "file": "InputBox/2024-01-04.md"
               }
             }
           },
@@ -146,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 262.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,6 +165,7 @@
   "active": "67d1782f19174a02",
   "lastOpenFiles": [
     "InputBox/2024-01-03.md",
+    "InputBox/2024-01-04.md",
     "InputBox/2023-12-29.md",
     "InputBox/2023-12-27.md",
     "InputBox/2023-12-25.md",
@@ -195,7 +197,6 @@
     "项目/ServerFamework.md",
     "项目/docs/异常处理.md",
     "项目/docs/协程调度模块.md",
-    "Archive/隔离级别.md",
     "Asserts/Pasted image 20230830205255.png",
     "Asserts/Pasted image 20230825204311.png",
     "Asserts/Pasted image 20230807094504.png",
