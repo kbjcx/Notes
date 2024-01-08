@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/SOH and SOC.md",
-                "mode": "source",
+                "file": "InputBox/2024-01-08.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/SOH and SOC.md"
+                "file": "InputBox/2024-01-08.md"
               }
             }
           },
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/SOH and SOC.md",
+                "file": "InputBox/2024-01-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/SOH and SOC.md",
+                "file": "InputBox/2024-01-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,6 +149,9 @@
   },
   "active": "862ede95a242eb43",
   "lastOpenFiles": [
+    "Projects/SOH and SOC.md",
+    "InputBox/2024-01-08.md",
+    "InputBox/2024-01-07.md",
     "InputBox/2023-12-23.md",
     "InputBox/2024-01-05.md",
     "InputBox/2024-01-04.md",
@@ -156,7 +159,6 @@
     "InputBox/2024-01-03.md",
     "InputBox/2023-12-29.md",
     "InputBox/2023-12-24.md",
-    "Projects/SOH and SOC.md",
     "InputBox/2023-12-28.md",
     "InputBox/2023-12-27.md",
     "InputBox/2023-12-26.md",
