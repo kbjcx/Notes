@@ -10,5 +10,7 @@
   "attachmentFolderPath": "Asserts",
   "showInlineTitle": true,
   "showIndentGuide": false,
-  "autoPairBrackets": false
+  "autoPairBrackets": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "MOC"
 }
