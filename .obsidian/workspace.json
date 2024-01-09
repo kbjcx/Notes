@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2024/01/01-09.md",
-                "mode": "source",
+                "file": "Projects/SOC and SOH/Other.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2024/01/01-09.md"
+                "file": "Projects/SOC and SOH/Other.md"
               }
             }
           },
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diary/2024/01/01-09.md",
+                "file": "Projects/SOC and SOH/Other.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diary/2024/01/01-09.md",
+                "file": "Projects/SOC and SOH/Other.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,6 +152,7 @@
   },
   "active": "401fed1ad0cda9db",
   "lastOpenFiles": [
+    "Diary/2024/01/01-09.md",
     "InputBox/2024-01-05.md",
     "Home.md",
     "InputBox/2024-01-04.md",
