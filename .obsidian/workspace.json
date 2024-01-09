@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "7428957641b880ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e80c3be71e50575",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "401fed1ad0cda9db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2024/01/01-09.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a216049254887d11",
+    "type": "split",
+    "children": [
+      {
+        "id": "626efbbc2251cae2",
+        "type": "tabs",
+        "dimension": 49.195402298850574,
+        "children": [
+          {
+            "id": "a4d3134a4826a1f9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e1cc450be1394b59",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Linux",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e3c1637ad1943ff7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "62a6f576afd7862e",
+        "type": "tabs",
+        "dimension": 50.804597701149426,
+        "children": [
+          {
+            "id": "9902637211b1f995",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diary/2024/01/01-09.md"
+              }
+            }
+          },
+          {
+            "id": "50b72748e5840882",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f02156a3e9c31e28",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diary/2024/01/01-09.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "306c5b93dfb3c64a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diary/2024/01/01-09.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 261.5
+  },
+  "right": {
+    "id": "154cb42221f6754e",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false,
+      "fuzzy-chinese-pinyin:FuzzySearch": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "401fed1ad0cda9db",
+  "lastOpenFiles": [
+    "InputBox/2024-01-05.md",
+    "Home.md",
+    "InputBox/2024-01-04.md",
+    "InputBox/2023-12-25.md",
+    "InputBox/2023-12-27.md",
+    "InputBox/2023-12-23.md",
+    "InputBox/2023-12-29.md",
+    "InputBox/2023-12-24.md",
+    "InputBox/2024-01-03.md",
+    "Projects/SOH and SOC.md",
+    "InputBox/2023-12-28.md",
+    "InputBox/2023-12-26.md",
+    "Asserts",
+    "Welcome.md",
+    "test/2024-01-04.md",
+    "test/A.md",
+    "test"
+  ]
+}
