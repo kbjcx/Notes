@@ -1,4 +1,9 @@
-# Clangd #Linux/Cpp
+---
+alias: [C++, cpp, CPP, c++, C++环境, Cpp环境]
+tags: [Linux/Cpp]
+---
+
+# 安装Clangd
 1. 下载对应版本的 clangd<br>
     - [Linux](https://github.com/clangd/clangd/releases/download/17.0.3/clangd-linux-17.0.3.zip)
     - [Mac](https://github.com/clangd/clangd/releases/download/17.0.3/clangd-mac-17.0.3.zip)
@@ -15,28 +20,16 @@ sudo mv clangd /path/clangd
 sudo ln -s /path/clangd/bin/clangd /usr/local/bin/clangd
 ```
 
-# Zip #Linux/Commands
-## 解压文件
-```bash
-# 不加-d默认解压到当前文件夹
-unzip file.zip [-d dest_path]
-```
-## 压缩文件
-```bash
-#  |压缩文件夹|Password |dest filename|  来源文件（可以多个） |
-zip    -r     -P 123456   Test_2.zip    Test1.txt Test2.txt
-```
-# WSL 传递文件 #Windows/WSL 
-wsl 中会将 windows 中的文件挂载在 /mnt 文件夹下，因此可以通过直接访问 /mnt 文件夹的方式直接传递文件
-```bash
-# 查看windows所有的挂载磁盘
-sudo ls /mnt/*
-```
-# clang-format #Linux/Cpp 
+# clang-format
 根据 [LLVM Debian/Ubuntu packages](https://apt.llvm.org/) 更换 apt 源,参考 [apt 换源](#apt%20换源%20Linux)，根据不同的系统安装不同版本的 clang-format
 ```bash
 sudo apt install clang-format-x
 sudo ln -s /bin/clang-format-x /bin/clang-format
+```
+## Error
+出现 `GPG error: https://apt.llvm.org/jammy llvm-toolchain-jammy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 15CF4D18AF4F7421` 时：
+```bash
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 15CF4D18AF4F7421[NO_PUBKEY后面跟的内容]
 ```
 ## .clang-format
 ```yaml
@@ -147,18 +140,4 @@ sudo ln -s /bin/clang-format-x /bin/clang-format
   ReferenceAlignment: Left
   # clang-format 3.7
   UseTab: Never
-```
-# apt 换源 #Linux 
-```bash
-# 备份原文件
-sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
-# 编辑文件，加入新源
-vim /etc/apt/sources.list
-# 更新系统源
-sudo apt update
-```
-## Error
-出现 `GPG error: https://apt.llvm.org/jammy llvm-toolchain-jammy InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 15CF4D18AF4F7421` 时：
-```bash
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 15CF4D18AF4F7421[NO_PUBKEY后面跟的内容]
 ```

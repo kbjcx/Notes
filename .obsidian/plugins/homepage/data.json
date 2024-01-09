@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "homepages": {
+    "Main Homepage": {
+      "value": "Home",
+      "kind": "Nothing",
+      "openOnStartup": true,
+      "openMode": "Replace all open notes",
+      "manualOpenMode": "Keep open notes",
+      "view": "Default view",
+      "revertView": true,
+      "openWhenEmpty": false,
+      "refreshDataview": false,
+      "autoCreate": true,
+      "autoScroll": false,
+      "pin": false,
+      "commands": [
+        "quickadd:choice:937a239d-2329-49f8-897d-0729467bb973"
+      ],
+      "alwaysApply": false,
+      "hideReleaseNotes": false
+    }
+  },
+  "separateMobile": false
+}

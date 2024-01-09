@@ -1,5 +1,14 @@
-# ZSH #Linux/Terminal 
-## 安装ZSH 本体与 Oh My ZSH
+# apt 换源
+```bash
+# 备份原文件
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+# 编辑文件，加入新源
+vim /etc/apt/sources.list
+# 更新系统源
+sudo apt update
+```
+# ZSH
+## 安装 ZSH 本体与 Oh My ZSH
 ```bash
 sudo apt install zsh
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"

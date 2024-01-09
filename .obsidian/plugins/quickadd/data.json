@@ -1,9 +1,38 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "id": "937a239d-2329-49f8-897d-0729467bb973",
+      "name": "diary",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Template/diary.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "Diary/{{date:YYYY}}/{{date:MM}}/{{DATE:MM-DD}}"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "source",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    }
+  ],
   "macros": [],
-  "inputPrompt": "single-line",
+  "inputPrompt": "multi-line",
   "devMode": false,
-  "templateFolderPath": "",
+  "templateFolderPath": "Template",
   "announceUpdates": true,
   "version": "1.6.1",
   "disableOnlineFeatures": true,

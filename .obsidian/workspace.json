@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2e80c3be71e50575",
+        "id": "55c343de9c070ede",
         "type": "tabs",
         "children": [
           {
-            "id": "862ede95a242eb43",
+            "id": "116ee1a74bb9708b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InputBox/2024-01-08.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               }
@@ -44,6 +44,27 @@
             }
           },
           {
+            "id": "3a262e310ec6e2b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home.md"
+              }
+            }
+          },
+          {
+            "id": "50b72748e5840882",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
             "id": "e1cc450be1394b59",
             "type": "leaf",
             "state": {
@@ -65,6 +86,14 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "1821f042bd601353",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
           }
         ]
       },
@@ -74,33 +103,12 @@
         "dimension": 50.804597701149426,
         "children": [
           {
-            "id": "9902637211b1f995",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "InputBox/2024-01-08.md"
-              }
-            }
-          },
-          {
-            "id": "50b72748e5840882",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
             "id": "f02156a3e9c31e28",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InputBox/2024-01-08.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,18 +125,17 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InputBox/2024-01-08.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 277.5
   },
   "right": {
     "id": "154cb42221f6754e",
@@ -140,33 +147,53 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false,
+      "fuzzy-chinese-pinyin:FuzzySearch": false
     }
   },
-  "active": "862ede95a242eb43",
+  "active": "116ee1a74bb9708b",
   "lastOpenFiles": [
-    "Projects/SOH and SOC.md",
-    "InputBox/2024-01-08.md",
-    "InputBox/2024-01-07.md",
-    "InputBox/2023-12-23.md",
-    "InputBox/2024-01-05.md",
-    "InputBox/2024-01-04.md",
-    "conflict-files-obsidian-git.md",
-    "InputBox/2024-01-03.md",
-    "InputBox/2023-12-29.md",
-    "InputBox/2023-12-24.md",
-    "InputBox/2023-12-28.md",
-    "InputBox/2023-12-27.md",
-    "InputBox/2023-12-26.md",
-    "InputBox/2023-12-25.md",
-    "Asserts",
-    "Welcome.md",
-    "test/2024-01-04.md",
-    "test/A.md",
-    "test"
+    "Diary/2024-01-08.md",
+    "Diary/2023-12-24.md",
+    "Diary/2023-12-23.md",
+    "Diary/2024-01-07.md",
+    "Diary/2024-01-05.md",
+    "Diary/2024-01-04.md",
+    "Diary/2024-01-03.md",
+    "Diary/2023-12-29.md",
+    "Diary/2023-12-28.md",
+    "Diary/2023-12-27.md",
+    "Diary/2023-12-26.md",
+    "Diary/2023-12-25.md",
+    "Diary/2024/01/01-09.md",
+    "Archive/Idea/windows 聚焦搜索.md",
+    "Archive/Idea",
+    "Home.md",
+    "Projects/SOC and SOH/Other.md",
+    "Projects/SOC and SOH",
+    "Archive/Windows/WSL.md",
+    "Archive/Windows",
+    "Archive/Linux/Cpp环境.md",
+    "Archive/Linux/Ubuntu.md",
+    "Archive/Linux/未命名.md",
+    "Archive/Algorithm/字符串.md",
+    "Archive/Algorithm",
+    "Archive/Linux/Commands.md",
+    "Archive/CodeSnippets/Cpp.md",
+    "Archive/CodeSnippets",
+    "Template/diary.md",
+    "Untitled.md",
+    "Diary/2024/01",
+    "Diary/2024",
+    "Daily/2024/01",
+    "Daily/2024",
+    "Daily",
+    "2024-01-09.md"
   ]
 }

@@ -8,5 +8,9 @@
   "obsidian-hider",
   "quickadd",
   "tag-wrangler",
-  "obsidian-admonition"
+  "obsidian-admonition",
+  "templater-obsidian",
+  "obsidian-tagfolder",
+  "homepage",
+  "fuzzy-chinese-pinyin"
 ]

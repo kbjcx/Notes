@@ -5,5 +5,13 @@
       "modifiers": [],
       "key": "F5"
     }
+  ],
+  "fuzzy-chinese-pinyin:open-search": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
   ]
 }

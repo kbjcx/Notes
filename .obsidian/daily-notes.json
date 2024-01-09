@@ -1,4 +1,5 @@
 {
-  "folder": "InputBox",
-  "autorun": true
+  "folder": "",
+  "autorun": false,
+  "template": "Template/diary"
 }

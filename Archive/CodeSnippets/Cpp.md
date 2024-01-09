@@ -1,4 +1,5 @@
-#代码片段/Cpp 去除字符串中的多余空格，包括首尾空格与字符串中的重复空格
+# Remove Space In String
+去除字符串中的多余空格，包括首尾空格与字符串中的重复空格
 ```cpp
 std::string trim(const std::string& str) {
     size_t start = str.find_first_not_of(' ');
