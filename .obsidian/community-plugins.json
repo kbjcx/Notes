@@ -12,5 +12,6 @@
   "templater-obsidian",
   "obsidian-tagfolder",
   "homepage",
-  "fuzzy-chinese-pinyin"
+  "fuzzy-chinese-pinyin",
+  "multi-column-markdown"
 ]

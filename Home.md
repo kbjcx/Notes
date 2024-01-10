@@ -1,16 +1,16 @@
-```dataview
-TABLE without id G as tag, rows.file.link as files
-FROM "Diary"
-FLATTEN file.etags as T
-GROUP BY T as G
-```
-
-# Linux
+# 待定
+## Linux
 - [[环境配置]]
 - [[系统设置]]
-# Windows
-- [WSL](WSL.md)
-# 算法
-- [字符串](字符串.md)
-# 代码片段
+- [[命令]]
+## Windows
+- [如何从WSL中传入传出文件](如何从WSL中传入传出文件.md)
+## [[算法]]
+## 代码片段
 - [Cpp](Cpp.md)
+## 一些想法
+-  [windows 聚焦搜索](windows%20聚焦搜索.md)
+# Project
+- [[SOC and SOH Estimation]]
+- [WechatBot](WechatBot.md)
+
