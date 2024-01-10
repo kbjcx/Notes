@@ -18,8 +18,33 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "8508044bac3b86e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9edac0db098c6006",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2024/01/01-11.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -79,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/SOC and SOH/Other.md"
+                "file": "Diary/2024/01/01-11.md"
               }
             }
           },
@@ -100,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/SOC and SOH/Other.md",
+                "file": "Diary/2024/01/01-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/SOC and SOH/Other.md",
+                "file": "Diary/2024/01/01-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,11 +175,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "401fed1ad0cda9db",
+  "active": "9edac0db098c6006",
   "lastOpenFiles": [
-    "Diary/2024/01/01-09.md",
-    "InputBox/2024-01-05.md",
     "Home.md",
+    "Diary/2024/01/01-11.md",
+    "Diary/2024/01/01-09.md",
+    "Projects/SOC and SOH/Other.md",
+    "InputBox/2024-01-05.md",
     "InputBox/2024-01-04.md",
     "InputBox/2023-12-25.md",
     "InputBox/2023-12-27.md",
