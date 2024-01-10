@@ -12,5 +12,6 @@
   "showIndentGuide": false,
   "autoPairBrackets": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "MOC"
+  "newFileFolderPath": "MOC",
+  "propertiesInDocument": "visible"
 }

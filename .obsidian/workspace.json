@@ -4,22 +4,61 @@
     "type": "split",
     "children": [
       {
-        "id": "2e80c3be71e50575",
+        "id": "1a4a3dc7d3876db8",
         "type": "tabs",
         "children": [
           {
-            "id": "401fed1ad0cda9db",
+            "id": "40d44aaaaaf75e77",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2024/01/01-10.md",
+                "mode": "source",
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "101a7f0854bbeef6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/SOC and SOH/Other.md",
+                "file": "MOC/202401/Body.md",
                 "mode": "preview",
                 "source": true
               }
             }
+          },
+          {
+            "id": "3f264f76083059cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOC/202401/论文准备.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "45bea1396835650b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2024/01/01-10.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -31,7 +70,7 @@
       {
         "id": "626efbbc2251cae2",
         "type": "tabs",
-        "dimension": 49.195402298850574,
+        "dimension": 49.13461538461538,
         "children": [
           {
             "id": "a4d3134a4826a1f9",
@@ -71,7 +110,7 @@
       {
         "id": "62a6f576afd7862e",
         "type": "tabs",
-        "dimension": 50.804597701149426,
+        "dimension": 50.86538461538461,
         "children": [
           {
             "id": "9902637211b1f995",
@@ -79,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/SOC and SOH/Other.md"
+                "file": "Diary/2024/01/01-10.md"
               }
             }
           },
@@ -90,7 +129,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -100,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/SOC and SOH/Other.md",
+                "file": "Diary/2024/01/01-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,14 +156,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/SOC and SOH/Other.md",
+                "file": "Diary/2024/01/01-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -145,30 +184,41 @@
       "fuzzy-chinese-pinyin:FuzzySearch": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "401fed1ad0cda9db",
+  "active": "45bea1396835650b",
   "lastOpenFiles": [
-    "Diary/2024/01/01-09.md",
-    "InputBox/2024-01-05.md",
+    "MOC/202401/论文准备.md",
+    "MOC/202401/SOC and SOH Estimation.md",
+    "MOC/202401/Body.md",
+    "Diary/2024/01/01-10.md",
+    "Asserts/Pasted image 20240110162859.png",
     "Home.md",
-    "InputBox/2024-01-04.md",
-    "InputBox/2023-12-25.md",
-    "InputBox/2023-12-27.md",
-    "InputBox/2023-12-23.md",
-    "InputBox/2023-12-29.md",
-    "InputBox/2023-12-24.md",
-    "InputBox/2024-01-03.md",
-    "Projects/SOH and SOC.md",
-    "InputBox/2023-12-28.md",
-    "InputBox/2023-12-26.md",
+    "待完成.md",
+    "MOC/202401/其他想法.md",
+    "Archive/如何从WSL中传入传出文件.md",
+    "MOC/202401/WechatBot.md",
+    "MOC/202401",
+    "Template/moc.md",
+    "MOC/202401/环境配置.md",
+    "Projects/SOC and SOH/Other.md",
+    "MOC/202401/数据集.md",
+    "Projects/SOC and SOH/SOH and SOC.md",
+    "Diary/2024/01/01-09.md",
+    "Template/diary.md",
+    "MOC/202401/算法.md",
+    "Archive/安装和配置clang-format.md",
+    "Archive/安装Clangd.md",
+    "Archive/配置ZSH终端.md",
+    "Archive/apt换源.md",
+    "Archive/KMP.md",
+    "Archive/Remove Space In String.md",
+    "Archive/windows 聚焦搜索.md",
+    "Archive/Zip.md",
     "Asserts",
-    "Welcome.md",
-    "test/2024-01-04.md",
-    "test/A.md",
     "test"
   ]
 }

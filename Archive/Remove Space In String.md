@@ -1,5 +1,10 @@
-# Remove Space In String
+---
+aliases: [trim]
+date: 2024-01-10 10:23
+---
+# 功能
 去除字符串中的多余空格，包括首尾空格与字符串中的重复空格
+# 实现
 ```cpp
 std::string trim(const std::string& str) {
     size_t start = str.find_first_not_of(' ');

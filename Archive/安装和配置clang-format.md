@@ -1,26 +1,8 @@
 ---
-alias: [C++, cpp, CPP, c++, C++环境, Cpp环境]
-tags: [Linux/Cpp]
+aliases: 
+date: 2024-01-10 10:19
 ---
-
-# 安装Clangd
-1. 下载对应版本的 clangd<br>
-    - [Linux](https://github.com/clangd/clangd/releases/download/17.0.3/clangd-linux-17.0.3.zip)
-    - [Mac](https://github.com/clangd/clangd/releases/download/17.0.3/clangd-mac-17.0.3.zip)
-    - [Windows](https://github.com/clangd/clangd/releases/download/17.0.3/clangd-windows-17.0.3.zip)
-    - [阿里云盘(Linux/Mac/Windows)](https://www.alipan.com/drive/file/backup/659672377c087d3e4a8e43979fdd74515da5c23e)
-    
-1. 解压并配置环境
-```bash
-# 解压文件
-unzip clangd_[].zip -d clangd
-# 将clang移动到防止软件的文件夹
-sudo mv clangd /path/clangd
-# 将clangd软链接到环境搜索路径
-sudo ln -s /path/clangd/bin/clangd /usr/local/bin/clangd
-```
-
-# clang-format
+# 安装 clang-format
 根据 [LLVM Debian/Ubuntu packages](https://apt.llvm.org/) 更换 apt 源,参考 [apt 换源](#apt%20换源%20Linux)，根据不同的系统安装不同版本的 clang-format
 ```bash
 sudo apt install clang-format-x
@@ -31,7 +13,7 @@ sudo ln -s /bin/clang-format-x /bin/clang-format
 ```bash
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 15CF4D18AF4F7421[NO_PUBKEY后面跟的内容]
 ```
-## .clang-format
+# 配置.clang-format
 ```yaml
   Language: Cpp
   # clang-format 3.3

@@ -40,7 +40,9 @@
       },
       "folder": {
         "enabled": true,
-        "folders": [],
+        "folders": [
+          "Archive"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
@@ -54,6 +56,34 @@
       "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "0508cbd7-6258-49cc-9a52-10eee53c86ef",
+      "name": "addMoc",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Template/moc.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "MOC/{{DATE:YYYYMM}}/{{VALUE:Name}}"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Append to the bottom of the file",
       "setFileExistsBehavior": true
     }
   ],
