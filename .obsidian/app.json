@@ -1,0 +1,17 @@
+{
+  "livePreview": false,
+  "strictLineBreaks": false,
+  "spellcheck": false,
+  "autoPairMarkdown": false,
+  "smartIndentList": false,
+  "useTab": false,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "Asserts",
+  "showInlineTitle": true,
+  "showIndentGuide": false,
+  "autoPairBrackets": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "MOC",
+  "propertiesInDocument": "visible"
+}

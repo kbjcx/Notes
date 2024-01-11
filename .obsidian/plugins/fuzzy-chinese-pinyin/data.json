@@ -1,0 +1,47 @@
+{
+  "global": {
+    "traditionalChineseSupport": false,
+    "doublePinyin": "全拼",
+    "closeWithBackspace": true,
+    "autoCaseSensitivity": false
+  },
+  "file": {
+    "showAttachments": false,
+    "showAllFileTypes": false,
+    "attachmentExtensions": [
+      "bmp",
+      "png",
+      "jpg",
+      "jpeg",
+      "gif",
+      "svg",
+      "webp",
+      "mp3",
+      "wav",
+      "m4a",
+      "3gp",
+      "flac",
+      "ogg",
+      "oga",
+      "opus",
+      "mp4",
+      "webm",
+      "ogv",
+      "mov",
+      "mkv",
+      "pdf"
+    ],
+    "usePathToSearch": false,
+    "useFileEditorSuggest": true,
+    "showPath": true,
+    "showTags": true,
+    "historyDisplay": "使用完整路径"
+  },
+  "command": {
+    "pinnedCommands": []
+  },
+  "other": {
+    "useTagEditorSuggest": true,
+    "devMode": true
+  }
+}

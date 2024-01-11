@@ -1,0 +1,13 @@
+{
+  "accentColor": "#248067",
+  "cssTheme": "Blue Topaz",
+  "showViewHeader": false,
+  "translucency": false,
+  "theme": "system",
+  "enabledCssSnippets": [
+    "块引用",
+    "font",
+    "yaozhuw",
+    "codeblock"
+  ]
+}

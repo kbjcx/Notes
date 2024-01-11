@@ -1,0 +1,31 @@
+{
+  "file-explorer:new-file-in-new-pane": [],
+  "daily-notes": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
+  ],
+  "fuzzy-chinese-pinyin:open-search": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "quickadd:choice:937a239d-2329-49f8-897d-0729467bb973": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
+  ],
+  "quickadd:choice:7b5442b7-599a-42b0-be57-147552479699": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "="
+    }
+  ]
+}
